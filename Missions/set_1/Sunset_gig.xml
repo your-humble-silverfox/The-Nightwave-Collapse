@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="set1_sunset" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+
+    </goals>
+
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="Performance Rework">We've received a contract to bring some fairness to the servers of an online MMO after it's acquisition by Chinese tech giant. Sunset, this is something of your type, so go ahead and show our expertise.</posting>
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

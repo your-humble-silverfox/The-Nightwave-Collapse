@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+
+    </goals>
+
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+
+    <posting title="Solemn Solace">It's nothing underhanded, why, it's simple etiquette. Someone's gotta lose or else a price is not competitive</posting>
+
+    <email>
+        <sender>Reigning_Strife</sender>
+        <subject>Solemn Solace</subject>
+        <body>
+It's nothing underhanded, why, it's simple etiquette. Someone's gotta lose or else a price is not competitive
+----
+They say it is said on the back of the eyes of the dead and I tend to agree. Although optography doesn't quite look into the digital eye of the deceased. I know you don't watch the news, so here's a little heads-up on what's been going on in the street. There's this spoiled corpo brat, Benson Clifton, his father is the managing director for Jintech Pharmaceuticals. And one day he got a painting, Kandinsky's Akhtyrka from his young gal, some singer-pop chick, and that chick has recently fell out of a window.
+Word on the street is that he got drunk and gave her the cheapest paratrooping course there can be. And among my networks, there's a strong belief, poor girl was paranoid about her mister cheating so she had a recorder installed into the damned painting. And there's no lies in my networks. I have an entry point of sorts, internal server of her sound label, so you know when to start.
+
+If you find a recording or something, send it to our drop-server. I'll figure it out. And I almost forgot. There's an IRC for you to join. I don't want eyes of idiots on our projects when it comes to stuff like this.
+        
+        -Reigning_Strife</body>
+        <attachments>
+
+        </attachments>
+    </email>
+</mission>

@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="set1_C0nst3ll4t10n" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+
+    </goals>
+
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="A private eye">We've received a personal request to conduct a thorough investigation into a suspicious individual, who might be involved in criminal activities and drug trade</posting>
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

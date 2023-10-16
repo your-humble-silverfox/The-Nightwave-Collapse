@@ -1,0 +1,25 @@
+<ConditionalActions>
+  
+  <Instantly>
+    <ChangeAlertIcon Target="ircNode" Type="irchub" DelayHost="delayNode" Delay="0.1"/>
+    <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="0.5">!ANNOUNCEMENT!</AddIRCMessage>
+    <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="0.8">User "Pretence" id changed to @#PLAYERNAME#.</AddIRCMessage>
+  </Instantly>
+
+  <OnConnect target="ircNode">
+    <AddIRCMessage Author="Sunset" TargetComp="ircNode" Delay="4.0">Oh, @Pretence having a change of heart?</AddIRCMessage>
+    <AddIRCMessage Author="Pretence" TargetComp="ircNode" Delay="4.5">I sure do. Saw the Jintech tower?</AddIRCMessage>
+    <AddIRCMessage Author="Sunset" TargetComp="ircNode" Delay="5.2">Sure did, they made a whole show out of it.</AddIRCMessage>
+    <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="6.8">A monument to their enterprise at the price of our indemnity.</AddIRCMessage>
+    <AddIRCMessage Author="Sunset" TargetComp="ircNode" Delay="10.2">Uhhh-huh...</AddIRCMessage>
+    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="ircNode" Delay="11.0">@channel I've got work for us.</AddIRCMessage>
+    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="ircNode" Delay="12.0">@Sunset got a small gig for you and me, whilst @Pretence and @Reigning_Strife got their "project" thing</AddIRCMessage>
+    <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="12.7">Cometh the hour</AddIRCMessage>
+    <AddMissionToHubServer MissionFilepath="Missions/set_1/Sunset_gig" TargetComp="ircNode" AssignmentTag="Sunset"/>
+    <AddMissionToHubServer MissionFilepath="Missions/set_1/Const_gig.xml" TargetComp="ircNode" AssignmentTag="C0nst3ll4t10n"/>
+    <AddMissionToHubServer MissionFilepath="Missions/set_1/Strife_Providence.xml" TargetComp="ircNode" AssignmentTag="Reigning_Strife"/>
+    <AddMissionToHubServer MissionFilepath="Missions/set_1/player_mission/solemn_solace.xml" TargetComp="ircNode"/>
+    <RunFunction FunctionName="setFaction:startingfac" FunctionValue="0" />
+  </OnConnect>
+
+</ConditionalActions>

@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ircNode" name="The Nightwave Society" type="4" icon="chip" security="2" allowsDefaultBootModule="true">
+    <ports>22,21,6881,25,443</ports>
+    <portsForCrack val="5"/>
+    <firewall level="7"/>
+    <portRemap>21=98,80=560,22=99,25=96,6881=1886,</portRemap>
+    <proxy time="1.7"/>
+    <DHSDaemon groupName="Nightwave" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="123,25,25" allowContractAbbandon="false">
+        <agent name="Pretence" pass="remittance" color="190,158,117"/>
+        <agent name="Sunset" pass="tokyo" color="255, 111, 1"/>
+        <agent name="C0nst3ll4t10n" pass="crown" color="107, 129, 117"/>
+        <agent name="Reigning_Strife" pass="chaos" color="238, 81, 177"/>
+        <post user="Sunset">Hey @C0nst3ll4t10n, why are we keeping Strife here, again? Not like the bloke's doing anything on our operations</post>
+        <post user="C0nst3ll4t10n">That's not his job, right. And he's competent with his job, so he's here.</post>
+        <post user="Sunset">And what's "his job"?</post>
+        <post user="Reigning_Strife">I'm a beholder of whatever you need to see it through. A reigning king of chaos if you will.</post>
+        <post user="Sunset">Uhh... A reigning king of smartassery that is</post>
+        <post user="C0nst3ll4t10n">Shut up, you dimwit! This is not a chat for stupid rambling.</post>
+    </DHSDaemon>
+</Computer>

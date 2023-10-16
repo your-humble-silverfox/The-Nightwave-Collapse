@@ -1,0 +1,47 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="Pretence_Battlestation" type="4" icon="laptop" allowsDefaultBootModule="true">
+    <firewall solution="unremitting" additionalTime="0.5"/>
+    <ports>21,6881,443,22,25,1433</ports>
+    <portsForCrack val="6"/>
+    <portRemap>21=3121,80=90,443=821,6881=9171,25=84</portRemap>
+    <proxy time="2.8"/>
+    
+    <!--*Default Applications*-->
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file> <!--SSH - 22-->
+    <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file> <!-- FTP - 21-->
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file> <!--SSL 443 --> <!--! Needs SSH|FTP|WEB|RTSP port on node-->
+    <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file> <!-- Torrent - 6881-->
+    <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+    <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+    
+    <!--*Personal Diary*-->
+    <file path="home/unremittance" name="readme.txt">I guess, if you're reading this, I'm either dead or failsafe didn't work.
+
+No matter the case, congratulations! You've gone to a tremendous amount of effort to find... A lousy diary of some online creep.
+If we ever meet in heaven or hell, be sure to find me and tell me was it worth the trouble. Cuz I'm dying to see your confused face.
+
+Anyway, don't touch it. Just leave it as is, it held some meaning to me when I was... Well, alive.</file>
+
+<file path="home/unremittance" name="01.txt">It feels like I'm trapped in this weird dimension under some false pretensions.
+I look around and see things that just can't exist under any logical circumstances. Not in a world ruled by the kind to conquer nature.
+We've allowed the wealthy to become the lawless, to kill billions in their internal power struggles and while we all despise it, we keep on acting normal.
+How in the hell can we allow it? How can we turn a blind eye to it? There has to be a time when we all take up arms and drag them down from their ivory towers!</file>
+
+<file path="home/unremmitance" name="02.txt">I'm not the only one who's not feeling it's all wrong. It feels better to know it.
+
+These Nightwave people, they do hold the right ideas, but I don't feel like they understand their actions. All these words about doing the right thing... Too metaphorical.
+And their approach? They don't take it seriously at all. Whilst their arch nemesis is set out on a mission and is taking thorough steps in it's direction.
+
+This is a recipe for disaster, but at least, these idiots do something good, so I might just stick around until a better team pops up</file>
+
+<file path="home/unremmitance" name="03.txt">Strife... It's surprising to see him join our clusterfuck of a team.
+
+Although, there's not many other people reckless enough to shit on Jintech's doorstep and knock on the door. I mean that's why *I* am here.
+He's definitely different. More serious, more ruthless. He definitely has his own beef with Jintech, luckily it won't cause collateral damage.
+
+There is some degree of concern I have though. His record is too clean. No-one knows who he is or where he came from. I should look deeper into this once I have the time.</file>
+
+<file path="home/unremmitance" name="04.txt">I guess, we've got a win. Strife is now our "leader", although Constellation is still pissed about becoming an HR, I feel like it's a good change.
+
+Me and him tend to share a lot of targets and goals, now we can start pushing the others in right direction. I hope to see it all proper soon.</file>
+</Computer>
