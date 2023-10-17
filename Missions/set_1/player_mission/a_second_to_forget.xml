@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="false">
+    <goals>
+
+    </goals>
+
+
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+
+    <posting title="A second to forget">We've received a contract specifically for @Pretence, to investigate a network of a defunct organization in search of bespoke software</posting>
+
+    <email>
+        <sender>Reigning_Strife</sender>
+        <subject>A second to forget</subject>
+        <body>
+It's a second to forgive, it's a second to forget
+----
+Greetings, Pretence
+
+You don't have a direct way of hiring you, so I had to go through a lot of effort to hire you for this job. And so I hope that you can live up to your reputation of a highly-experienced operative.
+
+I have a rather specific request, there's been this one corpo "EnTech", rumour is that they have been making some insane software deep within their organization that is capable of overcoming whatever is thrown at it. And some folk on the net are offering to sell their "improved" build of it, but I want to see if the thing existed in the first place and get my hands on some information concerning the project, but knowing the nature of the sellers, I don't wanna raise any eyebrows, so I need an unrelated actor for this op, and of course, I want this done clandestinely.
+
+There's an entry point to EnTech's network, their website, you can start there. Upload all the files you find to my drop-server directly, no middlemen. Once you're done, I'll be contacting you.
+
+Cometh the hour
+-Strife, The Reigning King of Chaos</body>
+        <attachments>
+
+        </attachments>
+    </email>
+</mission>

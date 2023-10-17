@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="centauri" name="Centauri" type="4" icon="laptop" security="4" allowsDefaultBootModule="true">
+    <DHSDaemon groupName="Centauri" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="171, 206, 204" allowContractAbbandon="false">
+        <agent name="Pretence" pass="remittance" color="190,158,117"/>
+        <agent name="Sunset" pass="tokyo" color="255, 111, 1"/>
+        <agent name="C0nst3ll4t10n" pass="crown" color="107, 129, 117"/>
+        <post user="Sunset">Hey @C0nst3ll4t10n, why are we keeping Pretence here, again? Not like the bloke's doing anything on our operations</post>
+        <post user="C0nst3ll4t10n">That's not his job, right. And he's competent with his job, so he's here.</post>
+        <post user="Sunset">And what's "his job"?</post>
+        <post user="Pretence">Earning the cash for you enjoy easy jobs and to attend the pretty dresses</post>
+        <post user="Sunset">Uhh... Smartass!</post>
+        <post user="C0nst3ll4t10n">Shut up, you dimwit! This is not a chat for stupid rambling.</post>
+    </DHSDaemon>
+</Computer>

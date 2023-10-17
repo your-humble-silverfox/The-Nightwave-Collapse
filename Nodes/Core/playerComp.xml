@@ -10,8 +10,7 @@
     <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file> <!--SSH - 22-->
     <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file> <!-- FTP - 21-->
     <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file> <!--SSL 443 --> <!--! Needs SSH|FTP|WEB|RTSP port on node-->
-    <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file> <!-- Torrent - 6881-->
-    <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file> <!--SQL - 1433-->
     <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
     
     <!--*Personal Diary*-->
