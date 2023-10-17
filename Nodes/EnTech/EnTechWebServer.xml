@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="EnTechWeb" name="EnTech Web Server" security="4" type="3">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="2"/>
+  <trace time="55" />
+  <addWebServer name="www.EnTech.com" url="Web/EnTech/EnTechPublicPage.html" />
+  
+
+  <dlink target="EnTechMainframe" />
+  <dlink target="EnTechWSCore" />
+  <dlink target="enMail" />
+
+  <positionNear target="EnTechMainframe" position="5" total="6" />
+
+</Computer>

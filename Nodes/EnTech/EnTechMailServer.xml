@@ -1,0 +1,150 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="enMail" name="EnTech Mail Server" security="5" ip="156.151.59.82">
+
+  <adminPass pass="ax889msjA" />
+
+  <ports>80, 22, 1433, 25, 21</ports>
+  <portsForCrack val="9999999" />
+  <trace time="500" />
+
+  <positionNear target="EnTechMainframe" position="5" total="6" />
+  <account username="nstanford" password="murloc33" type="2" />
+  <account username="hnManager" password="hnmanager22" type="2" />
+  <account username="bcarter" password="dota4lyf" type="2" />
+  <account username="rc" password="byC89kMMe" type="2" />
+  <account username="rilwhitfield" password="yP2t73wC" type="2"/>
+  <account username="amanders" password="JubAWJUR" type="2"/>
+  
+  <mailServer name="EnTech Mail" color="0,129,242">
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
+Hello all,
+
+Let me first say that progress has been exceptional. Despite some setbacks we ran into with the connections module, we've come out of it still within our goal deadline margins. You've all done great work. Some of the trouble points we established early on are being addressed by some outside contractors, who are showing impressive results!
+
+The project has been, I think, enlightening for everyone, and continues to reinforce my thoughts that this is the right way to address the problems digital security has at the moment.
+By pushing current systems to the limits like this ourselves, we've made huge bounds in progress of EnSec development and theory - the projects are helping each other now more than ever, and it's so encouraging to see.
+
+More updates soon to come,
+Keep up the good work,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project concerns and responses">
+Hello all,
+One of our engineers has expressed concerns about the direction of the project. I quote:
+"If used maliciously, this could be an extremely dangerous tool we're building. Unless you can guarantee that distribution will be extremely carefully tracked and monitored, I'm not sure I can continue work on the project in good faith".
+
+It's an exceptional point, and in the interests of transparency, something I want to talk about with the whole company.
+As I said before, this distribution locking and tracking was something we Identified early on in the design as something troublesome. One of the inherent problems with building powerful tools is their misuse comes with powerful consequences. This problem area is one of the instances where I felt engaging outside expert's help was our best course of action, and they are one of the ones showing great results.
+While I don't have the finished product to demonstrate yet, rest assured that it's an issue I'm aware of, and want to keep talking about. For now, *all* build come with a security tracer embedded that automatically activates at random intervals, helping track rogue builds even in this early stage.
+
+Keep up the good work,
+-RC
+    </email>
+    
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd"> 
+Hey,
+
+You probably should have been set up with this at the start, but the Romulus admin pass is:
+
+h7ggNKl2
+
+You should have a link to it on your desktop, but if you don't connect to 156.151.1.12 and you should be good to go.
+
+glgl,
+-Ben
+    </email>
+
+    <email recipient="nstanford" sender="Hacknet team Management" subject="Welcome to the Hacknet Team">
+Hello, and welcome to the Hacknet team. Due to the delicate nature of the project, much of your participation in the team will be kept isolated from other components in the project, and seeing complete assembled builds of the project will be rare, if ever.
+Because of this, we wanted to give everyone a bit more context as to the project's overall goals.
+
+Hackent OS has been designed from the ground up as a groundbreaking computer security examination and penetration testing framework.
+EnTech is producing this as a companion to it's new digital security software suite (EnSec), as a marketing and presentation device to demonstrate it's superiority over conventional security packages.
+At it's heart, hacknet is a marketing device, but as an individual project it's one of the most ambitious and powerful AntiSec tools ever created.
+
+Welcome to the team - I'm sure you'll agree it's an incredibly exciting project to be a part of.
+-Hacknet Team Management
+    </email>
+
+    <email recipient="nstanford" sender="EnTech Management" subject="EnTech Current projects and Direction">
+Greetings, and welcome to EnTech!
+We're currently working on two big projects, and you'll be getting a more detailed project introduction for your team shortly, but this email is for an overview of our current direction and how the projects fit together.
+The first is EnSec, a completely new computer security suite, designed to revolutionize computer security. Human error will always be the problem area of any security system, but we believe it should be the *only* problem area. By removing and minimizing the potential for human error in the system, and using our new proprietary systems, digital security's no longer a job - it's a choice.
+Hacknet OS is the companion project for EnSec, written to demonstrate existing problems with security and provide a strong value proposition for everyone to upgrade to what we believe is truly the best security option.
+
+Welcome aboard!
+-RC
+    </email>
+    
+    
+    <!-- CEO emails -->
+
+    <email recipient="rc" sender="Anonymous" subject="RE(5): New Case - Bit">
+
+      Payment has been received and our business is concluded.
+      ---
+
+      Fuckfuckfuck, what have you done?. This isn't what I wanted.
+      This isn't what i wanted you fucking psychopath! Jesus Christ.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(4): New Case - Bit">
+
+      The target is deceased.
+      Payment will proceed AS PROMISED or my employees may take issue with their client.
+      ---
+      
+      It's not too fucking late if he's not dead yet. Call this off right now, I'm revoking payment. This isn't what I hired you for, for fuck's sake.
+      Personal value to the project aside, I'm not going to be a goddamn accessory to murder because of your stupid misunderstanding.
+
+    </email>
+    
+    <email recipient="rc" sender="bcarter@entech.com" subject="RE: Mainframe Access Emergency">
+      
+      Sure thing,
+
+      User: admin
+      Pass: v19328hQ9
+      
+      I'll kill the auto-pass-rotation till you're done.
+      -Ben
+      
+      ----
+      Something's come up, I need access to the mainframe to have a look around. I'll be investigating recent accesses and builds, so I need admin.
+
+    </email>
+    
+    <email recipient="rc" sender="Anonymous" subject="RE(3): New Case - Bit">
+
+      It's too late, cant stop it. It's anonymous. You need to be clear about wording if you want specific action taken.
+      ---
+      Dead? What the hell are you talking about? I wanted you to smash up his computers and arrest the guy not fucking kill him. Call this off right now, this has gone far enough, I'll deal with it myself.
+      
+      The man's a genius, even if he's against the project I want him around. Find a way to stop it for god's sake.
+      If you're serious about this I'm holding you personally responsible. Dont fuck with me here.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE(2): New Case - Bit">
+
+      I've put out the order. Expensive, but he will be dead within the week.
+      Charged to your account as per normal.
+      ---
+
+      Good to have you on board. What exactly are your plans this time? He's important, and well informed.
+
+    </email>
+    <email recipient="rc" sender="Anonymous" subject="RE: New Case - Bit">
+      
+      Understood, I'll take care of it.
+      ---
+
+      A former employee's gone rogue and is threatening the project. Unlike most I'm actually concerned that he knows what he's doing and could be a real problem. As much as I hate being so crude about it, This project is too important to me, and to the world to put it at risk over something like this. Can you discourage him?
+      Details are attached. Call him "Bit".
+      
+      -rc
+    </email>
+
+  </mailServer>
+  
+</Computer>
