@@ -1,10 +1,11 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="EnWS05" name="EnTech Workstation _012" security="5" type="3" ip="156.151.0.50">
-
+<Computer id="EnWS01" name="EnTech Workstation _07" type="3" ip="156.151.0.78">
+  <!--*Riley Whitfield Workstation*-->
   <ports>80, 22, 1433, 25, 21</ports>
-  <portsForCrack val="9999999" />
-
+  <portsForCrack val="4" />
+  <file path="home/team" name="office_lounge_speech.txt">Ladies and gentlemen,
+Today, we gather to discuss vital improvements to our office lounge for team meetings. This space is where we collaborate, innovate, and foster strong connections. Let's make it even more conducive to our meetings. First, let's consider the layout. Introduce modular seating for flexible arrangements, ergonomic chairs for comfort, and quality seating to maintain focus. Technology matters. Equip the lounge with state-of-the-art AV equipment for seamless communication with remote team members. Lighting sets the mood. Natural light or lighting that mimics it can boost our productivity. Dedicated brainstorming areas with writable walls and creative materials would enhance idea generation. Greenery adds aesthetics and a calming effect. Plants purify the air and reduce stress. Provide a kitchenette or coffee station for refreshments to keep us energized. Decor matters too. Motivational artwork and a pleasing color scheme can inspire and motivate. In conclusion, these improvements will create a more productive and inspiring space for our meetings. Let's invest in these changes to enhance collaboration and innovation. Thank you for your attention.
+</file>
+  <dlink target="RW_home"/>
   <positionNear target="EnTechWSCore" position="12" total="12" />
-  
-
 </Computer>

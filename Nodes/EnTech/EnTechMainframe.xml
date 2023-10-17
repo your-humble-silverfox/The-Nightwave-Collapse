@@ -8,17 +8,23 @@
   <portsForCrack val="9999999" />
   <trace time="500" />
   
-  <dlink target="EnTechOutsiderRepo" />
-  <dlink target="EnTechPrometheus" />
   <dlink target="EnTechRomulus" />
   <dlink target="EnTechWeb" />
   <dlink target="EnTechWSCore" />
   <dlink target="enMail" />
 
+  <file path="log" name="@28107 Connection From 232.133.220.99" >Connection from 232.133.220.99 established.</file>
+  <file path="log" name="@28222 232.133.220.99 Given Administrator Access">Connection from 232.133.220.99 given administrator privileges.</file>
+  <file path="log" name="@28828 232.133.220.99 Acessed File [Hacknet_Runtime.dll]">File [Hacknet_Runtime.dll] was read by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@28928 232.133.220.99 Acessed File [Hacknet_Source.src]">File [Hacknet_Source.src] was read by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@30228 232.133.220.99 Acessed File [Content.xnb]">File [Content.xnb] was read by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@30454 232.133.220.99 Deleted File [Hacknet_Runtime.dll]">File [Hacknet_Runtime.dll] was deleted by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@30682 232.133.220.99 Deleted File [Hacknet_Source.src]">File [Hacknet_Source.src] was deleted by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@31118 232.133.220.99 Deleted File [Content.xnb]">File [Content.xnb] was deleted by 232.133.220.99 -- System Administrator</file>
+  <file path="log" name="@31118 232.133.220.99 Disconnected">232.133.220.99 Disconnected from system</file>
+
+
   <file path="Repo/Hacknet" name="Hacknet.sln">#BINARY#</file>
-  <file path="Repo/Hacknet" name="Hacknet_Runtime.dll">#BINARY#</file>
   <file path="Repo/Hacknet" name="HN_NETCORE.dll">#BINARY#</file>
-  <file path="Repo/Hacknet" name="Hacknet_Source.src">#BINARY#</file>
-  <file path="Repo/Hacknet" name="Content.xnb">#BINARY#</file>
   
 </Computer>

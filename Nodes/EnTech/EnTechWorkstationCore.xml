@@ -7,8 +7,6 @@
   <dlink target="EnWS01" />
   <dlink target="EnWS02" />
   <dlink target="EnWS03" />
-  <dlink target="EnWS04" />
-  <dlink target="EnWS05" />
 
   <admin type="fast" resetPassword="true" isSuper="true"/>
 

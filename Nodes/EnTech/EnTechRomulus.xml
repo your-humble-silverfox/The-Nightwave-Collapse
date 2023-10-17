@@ -11,6 +11,30 @@
 
   <positionNear target="EnTechMainframe" position="4" total="6" />
 
+  <file path="STORE/Contractors/MinistMole" name="EntEncrypt_Project_MinistMoleReport7.txt">
+After finally receiving the entire project source code from my predecessor and analyzing it, I have come to the conclusion of project being impossible to finish in it's current state.
+Previous developer made a plethora of basic mistakes that now plagued the project, making it an unoptimized mess. The "questionable" variable naming of previous developer has rendered any salvaging of the source code impossible as well.
+The only viable solution is to move the deadline on the project forward and/or increase the team and funding provided so that project can be re-started from scratch. 
+
+-MinistMole
+  </file>
+
+  <file path="STORE/Contractors/Optograph" name="Mainframe_Password_OptographReport1.txt">Security Concerns - Password Updates on Mainframe Server
+I hope this message finds you well. I wanted to bring to your attention some pressing security concerns regarding our mainframe server. It has come to my attention that there hasn't been any recent password updates, which poses a significant risk to our network's security.
+Outdated passwords are an open invitation to potential cyberattacks. This issue is especially worrisome given the sensitive data and critical systems hosted on our mainframe server. Unauthorized access to this information could result in severe consequences for our organization.
+Considering the nature of how we get problems solved here, I also uploaded my chat log with MinistMole about the issue, to point out that it's not just "my antics" playing up, but a general concern.</file>
+
+  <file path="STORE/Contractors/Optograph" name="irc_log_515.log">
+[Optograph]: MinistMole, have you checked the mainframe server lately? I'm getting concerned about the lack of password updates.
+[MinistMole]: Hey Optograph, yeah, I noticed that too. It's been way too long since we last changed those passwords. It's been "v19328hQ9" since I got hired. What's going on?
+[Optograph]: Not sure, but it's definitely a security risk. I think we should bring this up with our supervisor ASAP. Outdated passwords are a hacker's dream.
+[MinistMole]: I agree. We need to take action fast. I'll draft an email to our supervisor outlining the situation. Do you have any suggestions on how to address this issue?
+[Optograph]: Great, let's get on that email. I think we should stress the potential risks associated with unchanged passwords, such as unauthorized access and data breaches. We could also recommend a regular schedule for password updates to ensure this doesn't happen again.
+[MinistMole]: Solid points, Optograph. I'll also highlight that failing to update passwords is a violation of our company's security policies and potentially a breach of compliance standards.
+[Optograph]: Good thinking. Let's make it clear that we take this issue seriously and that it needs immediate attention. We should also offer to help with the password updates if necessary.
+</file>
+
+  <!--Basegame files (a few removed for lore justifications!)-->
   <file path="STORE/Contractors/Bit" name="Hacknet_Project_BitReport04.txt">
 Not sure how long you wanted this report to be, so i'll be keeping it pretty curt.
 Progress is good - my section's progressing mostly as planned - in that it works, and it's passing most of your test cases (#86 though - what is that? Hint?).
@@ -22,8 +46,6 @@ You gave me pretty free reign, so I assume this is fine, let me know if there ar
 --Bit
 1
   </file>
-  <encryptedFile path="STORE/Contractors/Bit" name="hn_repo_archive.dec" ip="156.151.59.35" header="EnTech(tm) Repository Backup" pass="ax229msjA">#BINARY#</encryptedFile>
-  <encryptedFile path="STORE/Contractors/Bit" name="hn_PH_LinkPrototype.dec" ip="23.236.62.147" header="Porthack heart link prototype" pass="ax229msjA">#BINARY#</encryptedFile>
 
   <file path="STORE/Contractors/Deonyx" name="Hacknet_Project_DeonyxReport4.txt">
 Update Report:

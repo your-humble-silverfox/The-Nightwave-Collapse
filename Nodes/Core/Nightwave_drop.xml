@@ -1,8 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="nw_drop" name="Nightwave Drop-Server" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+<Computer id="nw_drop" name="Nightwave Drop-Server" type="3" icon="DLCServer" allowsDefaultBootModule="true">
     <ports>22,21,6881,25,443</ports>
     <portsForCrack val="5"/>
     <firewall level="7"/>
     <portRemap>21=98,80=560,22=99,25=96,6881=1886,</portRemap>
     <proxy time="1.7"/>
+    <adminPass pass="g9dp2eg2Gb"/>
+    <uploadServerDaemon name="Nightwave Drop-Server" folder="Drop" needsAuth="false" color="123,25,25"/>
 </Computer>

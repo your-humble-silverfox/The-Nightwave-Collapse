@@ -1,7 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="false">
     <goals>
-
+        <goal type="fileupload" target="EnTechMainframe" file="Hacknet.sln" path="Repo/Hacknet" destTarget="nw_drop" destPath="Drop/Uploads"/>
+        <goal type="fileupload" target="EnTechMainframe" file="HN_NETCORE.dll" path="Repo/Hacknet" destTarget="nw_drop" destPath="Drop/Uploads"/>
     </goals>
 
 
@@ -28,7 +29,8 @@ There's an entry point to EnTech's network, their website, you can start there. 
 Cometh the hour
 -Strife, The Reigning King of Chaos</body>
         <attachments>
-
+            <link comp="nw_drop"/>
+            <link comp="EnTechWeb"/>
         </attachments>
     </email>
 </mission>

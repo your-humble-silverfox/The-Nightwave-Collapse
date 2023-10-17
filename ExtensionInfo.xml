@@ -23,9 +23,9 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>true</HasIntroStartup>
+  <HasIntroStartup>false</HasIntroStartup>
   
-  <StartingTheme>Themes/ExampleTheme.xml</StartingTheme>
+  <StartingTheme>Themes/MiamiThemeLightBlue.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -38,7 +38,7 @@
   
   To Play your own songs, use the path to that song in your extension.
   For example, try changing the song name below to "Music/Chemical_Burns.ogg" - it'll start with that instead for new saves! -->
-  <IntroStartupSong>The_Quickening</IntroStartupSong>
+  <IntroStartupSong>Music/moog-Tunnel_Run.ogg</IntroStartupSong>
 
   <!-- Sequencer stuff. You won't need this till later.-->
   <!--

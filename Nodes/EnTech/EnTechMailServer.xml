@@ -16,6 +16,190 @@
   <account username="amanders" password="JubAWJUR" type="2"/>
   
   <mailServer name="EnTech Mail" color="0,129,242">
+
+
+    <!--*Email password transfer*-->
+<email recipient="rilwhitfield" sender="amanders" subject="Romulus Cleanup">
+Hi Riley,
+
+I hope you're doing well. I wanted to ask you to help me out with making a list of our old data at Romulus server that needs retaining, and what can be deleted. Not sure I can directly send you server info, our security api's going crazy on forwarding Ben's emails, so check them out in my account, the pass is "JubAWJUR". Once you're logged in, you'll find the email with the subject "Server Shutdown and Old Project Files - Urgent" in the inbox.
+
+Thank you for your help with this, and let me know if you need any further assistance.
+
+Best,
+Amelia
+</email>
+    <!--*ROMULUS EMAILS!!!*-->
+
+<email recipient="amanders" sender="bcarter" subject="RE(3): Urgent: Server Shutdown and Old Project Files">
+Ben,
+
+Great, I'll make sure to have that list ready for our meeting. It's a mix of project files, some of which are still relevant, and others that can be archived or deleted, so I'll categorize them accordingly.
+
+I appreciate your cooperation on this. See you at 10 AM in the IT conference room.
+-Amelia
+---
+
+Amelia,
+
+Thank you for your cooperation as well. I'll be ready to discuss the technical aspects of shutting down the Romulus server and the best practices for data security. Let's make sure this transition goes smoothly.
+
+See you at 10 AM.
+
+Best regards,
+-Ben</email>
+
+<email recipient="amanders" sender="bcarter" subject="RE(2): Urgent: Server Shutdown and Old Project Files">
+Ben,
+
+Thank you for your prompt response. I think a meeting is a good idea. How about tomorrow at 10 AM in the IT conference room? Does that work for you?
+
+-Amelia
+---
+
+Amelia,
+
+That time works for me. I'll be there at 10 AM tomorrow in the IT conference room. In the meantime, it would be helpful if you could prepare a list of the project files that need to be retained and those that can be safely archived or deleted. This will help us streamline the process. I think you should be able to access the server with the password "h7ggNKl2", it should help you make the list
+
+Looking forward to our meeting.
+-Ben</email>
+
+    <email recipient="amanders" sender="bcarter" subject="RE: Urgent: Server Shutdown and Old Project Files">
+Hey Ben,
+
+I hope this email finds you well. As you know, we've successfully completed the transition to our new location, and it's time to address the Romulus server, the one at 156.151.1.12, which still houses some old project files. I wanted to discuss the process for shutting it down and ensuring data security. Do you have a moment to chat about this?
+
+Best regards,
+-Amelia
+---
+
+Hi Amelia,
+
+Great to hear from you. I'm aware of the Romulus server situation, and I agree it's essential to handle it properly. Let's discuss it. How about we schedule a meeting to go over the details? What time works for you?
+
+Best regards,
+-Ben
+</email>
+
+    <!--Amelia & Riley misc emails-->
+
+<!--Amelia Inbox-->
+<email recipient="amanders" sender="rilwhitfield" subject="RE(2): Urgent: Security Breach Prevention - Action Required">
+Riley,
+
+I've engaged our IT team, and they're currently working on identifying the source of the anomalies. I've also alerted our incident response team to be on standby. The situation seems to be contained for now, but we're closely monitoring the situation.
+
+I'll provide you with hourly updates or sooner if we have any significant findings.
+
+Best,
+-Amelia
+---
+
+Amelia,
+
+Thank you for your swift action and the ongoing updates. Please ensure that we maintain a high level of security vigilance during this period. The sooner we can identify the source and close any vulnerabilities, the better.
+
+If you need any additional resources or support, please don't hesitate to reach out. We must do everything in our power to protect our systems and data.
+
+Best,
+-Riley
+</email>
+
+<email recipient="amanders" sender="rilwhitfield" subject="RE: Urgent: Security Breach Prevention - Action Required">
+Hi Riley,
+
+I'm on it. I'll start by checking the logs and monitoring our network traffic. If this is indeed an attempted breach, we need to act fast to identify the source and plug any vulnerabilities. I'll keep you posted on any findings.
+
+Thanks for bringing this to my attention.
+
+Best,
+-Amelia
+---
+
+Amelia,
+
+Great, thank you for your prompt response. Let's not leave any stone unturned. Please coordinate with our IT team and initiate a thorough investigation. Also, inform our incident response team to be on standby in case we need to contain any breach.
+
+Keep me updated throughout the process, and don't hesitate to escalate this issue if you deem it necessary.
+
+Best regards,
+-Riley
+</email>
+<email recipient="amanders" sender="rilwhitfield" subject="Urgent: Security Breach Prevention - Action Required">
+Hi Amelia,
+
+I hope this message finds you well. I hate to be the bearer of bad news, but we've got a potentially serious security issue on our hands. Our security systems just detected an unusual spike in network traffic and some unauthorized access attempts. This could be the precursor to a breach.
+
+I need your immediate assistance in investigating this matter further. Could you please take a look into our logs and see if you can identify the source of these anomalies?
+
+Thanks,
+-Riley
+</email>
+
+<!--Riley Inbox Part-->
+<email recipient="rilwhitfield" sender="amanders" subject="RE(3): Urgent: Security Breach Prevention - Action Required">
+Amelia,
+
+Thank you for your swift action and the ongoing updates. Please ensure that we maintain a high level of security vigilance during this period. The sooner we can identify the source and close any vulnerabilities, the better.
+
+If you need any additional resources or support, please don't hesitate to reach out. We must do everything in our power to protect our systems and data.
+
+Best,
+-Riley
+---
+
+Riley,
+
+Thank you for your support. We're making progress in identifying the source, but this will take a bit more time. I'll keep you informed of any significant developments. We've got this under control.
+
+Best,
+-Amelia
+</email>
+
+<email recipient="rilwhitfield" sender="amanders" subject="RE(2): Urgent: Security Breach Prevention - Action Required">
+Amelia,
+
+Great, thank you for your prompt response. Let's not leave any stone unturned. Please coordinate with our IT team and initiate a thorough investigation. Also, inform our incident response team to be on standby in case we need to contain any breach.
+
+Keep me updated throughout the process, and don't hesitate to escalate this issue if you deem it necessary.
+
+Best regards,
+-Riley
+---
+
+Riley,
+
+I've engaged our IT team, and they're currently working on identifying the source of the anomalies. I've also alerted our incident response team to be on standby. The situation seems to be contained for now, but we're closely monitoring the situation.
+
+I'll provide you with hourly updates or sooner if we have any significant findings.
+
+Best,
+-Amelia
+</email>
+
+<email recipient="rilwhitfield" sender="amanders" subject="RE: Urgent: Security Breach Prevention - Action Required">
+Hi Amelia,
+
+I hope this message finds you well. I hate to be the bearer of bad news, but we've got a potentially serious security issue on our hands. Our security systems just detected an unusual spike in network traffic and some unauthorized access attempts. This could be the precursor to a breach.
+
+I need your immediate assistance in investigating this matter further. Could you please take a look into our logs and see if you can identify the source of these anomalies?
+
+Thanks,
+-Riley
+---
+
+Hi Riley,
+
+I'm on it. I'll start by checking the logs and monitoring our network traffic. If this is indeed an attempted breach, we need to act fast to identify the source and plug any vulnerabilities. I'll keep you posted on any findings.
+
+Thanks for bringing this to my attention.
+
+Best,
+-Amelia
+    </email>
+
+    <!-- basegame emails-->
+
     <email recipient="nstanford" sender="EnTech Management" subject="Hacknet Project Update">
 Hello all,
 
@@ -42,7 +226,7 @@ Keep up the good work,
 -RC
     </email>
     
-    <email recipient="nstanford" sender="bcarter@entech.com" subject="Re: Romulus passwd"> 
+    <email recipient="nstanford" sender="bcarter@entech.com" subject="RE: Romulus passwd"> 
 Hey,
 
 You probably should have been set up with this at the start, but the Romulus admin pass is:
