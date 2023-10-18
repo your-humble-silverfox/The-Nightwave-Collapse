@@ -23,7 +23,7 @@
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
-  <HasIntroStartup>false</HasIntroStartup>
+  <HasIntroStartup>True</HasIntroStartup>
   
   <StartingTheme>Themes/MiamiThemeLightBlue.xml</StartingTheme>
   <!-- 
