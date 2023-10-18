@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="RW_home" name="Riley Whitfield eBook Breeze" type="2" icon="DLCLaptop" allowsDefaultBootModule="true">
-    <ports>21,22,443</ports>
+    <ports>21,22,443,80</ports>
     <portsForCrack val="3"/>
     <firewall level="4"/>
     <!--misc files-->
