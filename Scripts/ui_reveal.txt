@@ -1,0 +1,5 @@
+config playerComp delayNode 0.5 $#%#$
+
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$

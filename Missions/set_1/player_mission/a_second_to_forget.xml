@@ -5,7 +5,7 @@
         <goal type="fileupload" target="EnTechMainframe" file="HN_NETCORE.dll" path="Repo/Hacknet" destTarget="nw_drop" destPath="Drop/Uploads"/>
     </goals>
 
-
+    <missionEnd>loadConditionalActions:Actions\M1_end.xml</missionEnd>
 
     <nextMission IsSilent="false">NONE</nextMission>
 

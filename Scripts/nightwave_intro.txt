@@ -1,0 +1,23 @@
+config playerComp rs_proxy 0.5 $#%#$
+delete /sys x-server.sys $#%#$
+delete /bin * $#%#$
+connect $#%#$
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+writel  $#%#$
+write +-+-+-+-+-+-+-+ $#%#$
+writel  $#%#$
+write |N|I|G|H|T|W|O|K|E|N| $#%#$
+writel  $#%#$
+write +-+-+-+-+-+-+-+ $#%#$
+writel  $#%#$
+writel ------------ NIGHTWOKEN PROTOCOL ------------ $#%#$
+writel  $#%#$
+write > Greetings, prospect. $#%#$
+writel  $#%#$
+write > Congratulations on completing the first test $#%#$
+writel  $#%#$
+write > Your true trial begins now $#%#$
+writel  $#%#$
+write > - Welcome to NIGHTWOKEN GAUNTLET $#%#$ 

@@ -1,0 +1,14 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/nightwave_intro.txt" DelayHost="delayNode" Delay="0" SourceComp="rs_proxy" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="rs_proxy" DelayHost="delayNode" Delay="18.5"/>
+    </Instantly>
+
+    <OnConnect target="playerComp">
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-empty_world.ogg" Delay="0.0"/>
+        <SetLock DelayHost="delayNode" Delay="0.0" Module="ram" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="delayNode" Delay="0.0" Module="display" IsLocked="false" IsHidden="false"/>
+        <SetLock DelayHost="delayNode" Delay="0.0" Module="netmap" IsLocked="false" IsHidden="false"/>
+        <AddAsset FileName="SSHCrack" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+    </OnConnect>
+</ConditionalActions>

@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="centauri" name="Centauri" type="4" icon="laptop" security="4" allowsDefaultBootModule="true">
-    <DHSDaemon groupName="Centauri" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="171, 206, 204" allowContractAbbandon="false">
+    <DHSDaemon groupName="Centauri" addsFactionPointOnMissionComplete="false" autoClearMissionsOnPlayerComplete="true" themeColor="171, 206, 204" allowContractAbbandon="false">
         <agent name="Pretence" pass="remittance" color="190,158,117"/>
         <agent name="Sunset" pass="tokyo" color="255, 111, 1"/>
         <agent name="C0nst3ll4t10n" pass="crown" color="107, 129, 117"/>

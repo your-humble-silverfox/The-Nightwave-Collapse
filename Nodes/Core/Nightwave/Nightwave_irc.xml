@@ -3,7 +3,7 @@
     <ports>22,21,6881,25,443</ports>
     <portsForCrack val="5"/>
     <firewall level="7"/>
-    <portRemap>21=98,80=560,22=99,25=96,6881=1886,</portRemap>
+    <portRemap>21=98,80=560,22=99,25=96,6881=1886</portRemap>
     <proxy time="1.7"/>
     <DHSDaemon groupName="Nightwave" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="123,25,25" allowContractAbbandon="false">
         <agent name="Pretence" pass="remittance" color="190,158,117"/>

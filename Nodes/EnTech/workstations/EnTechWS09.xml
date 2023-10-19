@@ -1,6 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="EnWS02" name="EnTech Workstation _09" type="3" ip="156.151.0.92">
   <!--*Amelia Anderson Workstation*-->
+  <firewall level="3" additionalTime="1.5"/>
   <ports>80, 22, 1433, 25, 21</ports>
   <portsForCrack val="4" />
   <file path="home/personal" name="irc_autolog_0189">

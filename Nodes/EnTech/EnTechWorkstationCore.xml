@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="EnTechWSCore" name="EnWorkstationCore" security="1" type="3" ip="156.151.0.0">
+<Computer id="EnTechWSCore" name="EnWorkstationCore" type="3" ip="156.151.0.0">
   
-  <ports>1433</ports>
-  <trace time="26.5" />
+  <ports>1433,80</ports>
+  <trace time="49.3" />
 
   <dlink target="EnWS01" />
   <dlink target="EnWS02" />

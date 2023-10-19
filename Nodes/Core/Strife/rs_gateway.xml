@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rs_gateway" name="Strife_Gateway" type="4" icon="laptop" security="2" allowsDefaultBootModule="true">
+    <ports>22,21,25,80,443</ports>
+    <portsForCrack val="5"/>
+    <firewall level="5" additionalTime="1.5"/>
+
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="bin" name="Clock.exe">#CLOCK_PROGRAM#</file>
+    <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+    <file path="sys" name="x-server.sys">#WHITE_THEME#</file>
+
+    <file path="home/projects" name="RM_todo.txt">
+Test the prospect, recruit if successful
+Verify the efficiency of TH
+Review schematics, verify correctness
+Build bot-net
+Execute operation
+Leak the names, clean loose ends
+Wipe Strife persona
+    </file>
+
+    <file path="home/projects" name="jtech_mt_server_fs_report.pdf">#BINARY#</file>
+    <memoryDumpFile name="jt_ceo.md" path="home/projects">
+        <Memory>
+            <Commands>
+                <Command>
+> profiledump_old.exe -gs matsukoza
+Accessing profile...
+Name: Kozakura, Matsuura
+Age: 30
+Occupation: Software Engineer, CEO (Jintech Inc)
+Profile Description: (empty)
+Linked pages: Jintech_Inc, Useewa, KeiHarun, TakanoEisenhower
+Join date: 01/02/2003
+Last Login: 13 Minutes Ago (04:15 GMT+9)
+Last IP: (empty)
+Connected profiles: 3287
+Recently viewed profiles: (empty)
+Recently chatted with: (empty)
+                </Command>
+            </Commands>
+        </Memory>
+    </memoryDumpFile>
+
+    <file path="home/projects" name="jt_ceo_report.pdf">#BINARY#</file>
+</Computer>
