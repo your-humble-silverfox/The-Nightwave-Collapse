@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="gauntlet_1" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedownload" target="g1_end" file="indemnity" path="home"/>
+    </goals>
+
+    <missionStart val="3">NONE</missionStart>
+    <missionEnd>loadConditionalActions:Actions/Gauntlet/g1_end.xml</missionEnd>
+
+    <nextMission IsSilent="true">NONE</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+
+        </attachments>
+    </email>
+</mission>

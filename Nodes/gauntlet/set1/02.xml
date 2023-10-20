@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="g1_02" name="Where the devils says goodnight" type="4" icon="chip" ip="135.139.236.104" allowsDefaultBootModule="true">
+    <ports>21,22,211,9481</ports>
+    <portsForCrack val="2"/>
+    <firewall solution="doyoufeellikeaheroyet" additionalTime="0"/>
+    <!--*Dostoevsky Riddle*-->
+    <file path="home" name="s.txt">
+“They were like two enemies in Love with one another.”
+― Fyodor Dostoevsky, The Brothers Karamazov
+    </file>
+    <file path="home" name="y.txt">
+“One can't Understand everything at once, we can't begin with perfection all at once! 
+In order to reach perfection one must begin by being ignorant of a great deal. 
+And if we understand things too quickly, perhaps we shan't understand them thoroughly.”
+― Fyodor Dostoyevsky, The Idiot
+    </file>
+    <file path="home" name="e.txt">
+“Break what must be broken, once for all, that's all, and take the suffering on Oneself.”
+― Fyodor Dostoyevsky, Crime and Punishment
+    </file>
+    <file path="home" name="k.txt">
+"I Say let the world go to hell, but I should always have my tea."
+― Fyodor Dostoevsky, Notes from Underground
+    </file>
+    <encryptedFile path="home" name="pathway_forward" extension=".txt" ip="135.73.2.5" header="Cometh the hour" pass="soul">
+Cometh the hour - 135.73.2.5
+    </encryptedFile>
+    <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="sys" name="x-server.sys">#BINARY#</file>
+</Computer>

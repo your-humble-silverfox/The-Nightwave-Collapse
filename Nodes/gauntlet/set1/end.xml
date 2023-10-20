@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="g1_end" name="Figure in the corner" type="4" icon="chip" ip="135.73.2.5" allowsDefaultBootModule="true">
+    <ports>21,22,1433,211,9481,3724</ports>
+    <portsForCrack val="3"/>
+    <firewall solution="Inbusinessthereisntthetimeforattrition" additionalTime="0"/>
+    <file path="home" name="indemnity">don't you need it?</file>
+</Computer>

@@ -1,0 +1,9 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <CrashComputer TargetComp="playerComp" CrashSource="g1_end" DelayHost="delayNode" Delay="0.0"/>
+        <HideAllNodes DelayHost="delayNode" Delay="0.0"/>
+    </Instantly>
+    <OnConnect target="playerComp">
+        <SwitchToTheme ThemePathOrName="hacknetWhite" FlickerInDuration="5.0" DelayHost="delayNode" Delay="0"/>
+    </OnConnect>
+</ConditionalActions>
