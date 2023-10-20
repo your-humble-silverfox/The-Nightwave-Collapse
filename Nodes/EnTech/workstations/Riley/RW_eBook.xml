@@ -7,13 +7,21 @@
 
     <file path="home/chatlogs" name="irc_log_1041.log">
 rilwhitfield: Hey love, I've been thinking about Keira's graduation gift. What do you think about getting her a BMW 5 Series touring?
+
 jordywhitfy: Wow, that's a pretty extravagant gift, Riley. Are you sure it's a good idea? She's just graduating high school, after all.
+
 rilwhitfield: I know it sounds extravagant, but you've seen her grades and how hard she's been working, right? She's earned it.
+
 jordywhitfy: Of course, I'm really proud of her. But, don't you think it's a bit too much for an 18-year-old? I mean, a car like that is expensive to maintain, and I worry it might give her the wrong idea about money.
+
 rilwhitfield: I understand your concerns, but I think it's important to reward her for her dedication to her education. Besides, she'll be heading off to college soon, and having a reliable and safe car will be a huge advantage for her.
+
 jordywhitfy: I get that, but can't we find a more reasonable option? Maybe something that's still safe and reliable but not as pricey. We don't want to spoil her, do we?
+
 rilwhitfield: That's a valid point. I want to encourage her achievements, not spoil her. Maybe we can look into a used BMW 5 Series touring. That way, we can still get her a great car without the same price tag.
+
 jordywhitfy: That could be a good compromise. Let's research some options, check the reviews, and make sure it's within our budget. We want to celebrate her success without going overboard.
+
 rilwhitfield: That sounds fair. We'll find the right balance between rewarding her for her hard work and being responsible parents. Thanks for understanding, Jordyn.
 </file>
 
@@ -39,7 +47,7 @@ rilwhitfield: That sounds fair. We'll find the right balance between rewarding h
 
 <eosDevice name="Riley Whitfield's ePhone 9S" id="rw_eos" icon="ePhone2" empty="false">
     <note>Work to-do
-- Meeting with the team at 10 AM to discuss the new project requirements.
+   - Meeting with the team at 10 AM to discuss the new project requirements.
    - Don't forget to follow up with the client regarding their feedback on the prototype.
    - Review the pull request from James and provide feedback by EOD.
    - Schedule a code review session for the junior developer, Sarah, this week.
