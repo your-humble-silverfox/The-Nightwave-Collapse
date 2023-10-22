@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kernel.hardline" name="kernel.hardline" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>211,9418,80,443,554,25,21</ports>
+    <portsForCrack val="5"/>
+    <portRemap>21=78,22=77,211=788,80=19,25=74,9418=582</portRemap>
+    <firewall level="7" additionalTime="40"/>
+    <proxy time="5.9"/>
+    <messageBoard name="kernel.hardline - a hub for all your digital needs">
+        <thread>Docs/Threads/Thread1.txt</thread>
+        <thread>Docs/Threads/CloudThread.txt</thread>
+        <thread>Docs/Threads/MissionThread.txt</thread>
+        <thread>Docs/Threads/Thread2.txt</thread>
+        <thread>Docs/Threads/oxxyThread.txt</thread>
+        <thread>Docs/Threads/ThreadFlynn.txt</thread>
+    </messageBoard>
+</Computer>

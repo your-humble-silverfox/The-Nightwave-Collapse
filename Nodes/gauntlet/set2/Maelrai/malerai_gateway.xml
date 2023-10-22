@@ -1,0 +1,56 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="maelrai_gw" name="Maelrai_Gateway" type="2" icon="laptop" ip="102.36.192.122" allowsDefaultBootModule="true">
+    <ports>21,22,211,1433,443,25,80</ports>
+    <portsForCrack val="6"/>
+    <firewall solution="elegantmalevolence" additionalTime="2.5"/>
+    <proxy time="2.5"/>
+    <CustomConnectDisplayDaemon />
+    <!--*Mission Goal Files*-->
+    <file path="home/operations/jingate" name="jintech_mgtw_schematics.pdf">#BINARY#</file>
+    <file path="home/operations/jingate" name="jintech_counterintel_employee_db.accdb">#BINARY#</file>
+    <file path="home/operations/jingate" name="mgtower_transfer_list.xls">#BINARY#</file>
+    <file path="home/operations/jingate" name="mgtower_transfer_email.log">From: Naya Sei &lt;nayasei@jintech.hr&gt;
+To: Matsuura Kozakura &lt;kozakurasama@jintech.jp&gt;
+Date: December 15, 2016
+Subject: Megatower Employee Transfer Project
+
+Kozakura-Sama,
+
+Following your request I have compiled a list of employees that can be transfered to the megatower when it'll be operational.
+You will find detailed information in the attached file about each of the potential candidates as well all the information needed.
+
+Yours sincerely,
+- Naya Sei, senior HR specialist
+    </file>
+    <file path="home/operations/vittorum" name="irc_autolog_180.log">0rthodox: And so, what exactly are we talking here?
+t0d0m3k1: Crush anyone who fights corporations.
+0rthodox: The point? Like, why should we find success with this?
+t0d0m3k1: Soon governments are gonna crumble and fall to the floor. We know what our community is capable of, it's a matter of time
+0rthodox: And so... You want to pave the road for someone specific to take the reigns to then become their ruler? Smart. Very. Who's the luck ones?
+t0d0m3k1: Those who "saw the spark then embarked upon the path to to turn that spark to lightning"
+0rthodox: Jintech... Wise, those guys defintely have the buck and muscle for it, not the brains tho
+t0d0m3k1: A matter of time.
+0rthodox: Fair.
+    </file>
+    <file path="home/operations/vittorum" name="vittorum_consciousness_mantra.pdf">#BINARY#</file>
+    <file path="home/operations/vittorum" name="vc_pricelist.pdf">#BINARY#</file>
+    <file path="home/operations/vittorum" name="vc_client_database.nugg">#BINARY</file>
+    <WhitelistAuthenticatorDaemon Remote="bonsoir_gw"/>
+    <!--*FTPSprint Secret*-->
+    <Memory>
+        <Commands>
+            <Command>maelrai@mlrcache~: upload bin/FTPSprint.exe</Command>
+        </Commands>
+        <Data>
+            <Block>NRTSQC Sequencer suite log
+Data: 2018-15-09
+Time: 03:59 (GMT-7)
+User: maelrai
+IP Address: 34.98.24.94
+Action: Login
+Success: True</Block>
+        </Data>
+    </Memory>
+    <customthemefile path="sys" name="x-server.sys" themePath="Themes/horatheme.xml"/>
+    <customthemefile path="sys" name="hora-x-server.sys" themePath="Themes/horatheme.xml"/>
+</Computer>

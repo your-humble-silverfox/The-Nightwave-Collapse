@@ -1,6 +1,6 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
-        <LaunchHackScript Filepath="Scripts/nightwave_intro.txt" DelayHost="delayNode" Delay="0" SourceComp="rs_proxy" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <LaunchHackScript Filepath="Scripts/nightwave_intro.txt" DelayHost="delayNode" Delay="0" SourceComp="g1_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
         <CrashComputer TargetComp="playerComp" CrashSource="rs_proxy" DelayHost="delayNode" Delay="18.5"/>
     </Instantly>
 

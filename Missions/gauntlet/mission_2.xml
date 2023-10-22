@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="gauntlet_2" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedownload" target="maelrai_gw" file="jintech_mgtw_schematics.pdf" path="home/operations/jingate"/>
+        <goal type="filedownload" target="maelrai_gw" file="jintech_counterintel_employee_db.accdb" path="home/operations/jingate"/>
+        <goal type="filedownload" target="maelrai_gw" file="mgtower_transfer_list.xls" path="home/operations/jingate"/>
+        <goal type="filedownload" target="maelrai_gw" file="mgtower_transfer_email.log" path="home/operations/jingate"/>
+        <goal type="filedownload" target="maelrai_gw" file="irc_autolog_180.log" path="home/operations/vittorum"/>
+        <goal type="filedownload" target="maelrai_gw" file="vittorum_consciousness_mantra.pdf" path="home/operations/vittorum"/>
+        <goal type="filedownload" target="maelrai_gw" file="vc_pricelist.pdf" path="home/operations/vittorum"/>
+        <goal type="filedownload" target="maelrai_gw" file="vc_client_database.nugg" path="home/operations/vittorum"/>
+        <goal type="clearfolder" target="maelrai_gw" path="sys"/>
+    </goals>
+
+    <missionStart val="3">NONE</missionStart>
+    <missionEnd>loadConditionalActions:Actions/gauntlet_end.xml</missionEnd>
+
+    <nextMission IsSilent="true">NONE</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

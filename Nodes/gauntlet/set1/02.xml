@@ -22,7 +22,7 @@ And if we understand things too quickly, perhaps we shan't understand them thoro
 "I Say let the world go to hell, but I should always have my tea."
 ― Fyodor Dostoevsky, Notes from Underground
     </file>
-    <encryptedFile path="home" name="pathway_forward" extension=".txt" ip="135.73.2.5" header="Cometh the hour" pass="soul">
+    <encryptedFile path="home" name="pathway_forward.dec" extension=".txt" ip="135.73.2.5" header="Cometh the hour" pass="SOUL">
 Cometh the hour - 135.73.2.5
     </encryptedFile>
     <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>

@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kernel_vrt_irc" name="OP_VRT_Drawdown_irc_channel" type="4" icon="chip" ip="3.123.57.28" allowsDefaultBootModule="true">
+    <IRCDaemon themeColor="176,196,222" name="VRT Drawdown" needsAuth="true">
+        <agent name="Inexor" color="107,142,35"/>
+        <agent name="Reinakai" color="189,183,107"/>
+        <agent name="Maelrai" color="129, 19, 49"/>
+        <post user="Channel">!ANNOUNCEMENT!</post>
+        <post user="Channel">circle account activated by @Reinakai</post>
+        <post user="Inexor">Great to finally meet you. @Reinakai</post>
+        <post user="Reinakai">And would you look at that. Huh.</post>
+        <post user="Inexor">I'll wait for the snake, you don't want to get on her bad side if it's the person everyone think it is</post>
+        <post user="Channel">snake account activated by @Maelrai</post>
+        <post user="Reinakai">Holy christ, Maelrai... Thought you'd gone under a couple of years ago</post>
+        <post user="Reinakai">Shaken off the rigor mortis post Yokohama I reckon?</post>
+        <post user="Maelrai">Wasn't it *your* blind eye that was liable for it?</post>
+        <post user="Inexor">People, please. We're not here for this ruckus</post>
+        <post user="Reinakai">It'll wait. We have the fucking queen of the net here, telling me of for saving our asses</post>
+        <post user="Maelrai">If it wasn't for your mistake in the first place, we wouldn't be all over that shit</post>
+        <post user="Inexor">I don't give a fuck about your past ops. We work here and now, or you fuck off back where you came from</post>
+        <post user="Maelrai">Exactly. Give me the sitrep</post>
+        <post user="Inexor">Uhh... Anyway. What I have that isn't still downed by dimwits is their intern whitelist server</post>
+        <post user="Inexor">140.83.213.12</post>
+        <post user="Maelrai">Great, do we have a drop-server for this op yet?</post>
+        <post user="Inexor">No. We don't.</post>
+        <post user="Maelrai">Screw it. 54.19.249.28 pass is "qv383c1n846v377"</post>
+        <post user="Inexor">Thanks</post>
+        <post user="Reinakai">Erm... So, that... Is why you are... Like that</post>
+        <post user="Reinakai">I never it was because of me... I'm sorry.</post>
+        <post user="Maelrai">... Just get to work. And don't get anyone killed this time</post>
+    </IRCDaemon>
+</Computer>

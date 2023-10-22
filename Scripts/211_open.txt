@@ -1,0 +1,3 @@
+config playerComp enemyComp 0.5 $#%#$
+
+openPort 211 $#%#$

@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mael_ftps" name="Maelrai Cache" type="4" icon="chip" security="3" ip="34.98.24.94" allowsDefaultBootModule="true">
+    <CustomConnectDisplayDaemon />
+    <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+    <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+</Computer>

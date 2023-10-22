@@ -1,0 +1,34 @@
+<CustomTheme>
+  <themeLayoutName>riptide2</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/hourglass.jpeg</backgroundImagePath>
+
+  <defaultHighlightColor>157,140,130</defaultHighlightColor> <!-- 184,51,122 -->
+  <defaultTopBarColor>154,64,25</defaultTopBarColor> <!-- 140,6,53 -->
+  <warningColor>183,255,0</warningColor>
+  
+  <shellColor>255,115,164,0</shellColor>
+  <shellButtonColor>255,180,0</shellButtonColor>
+
+  <moduleColorSolidDefault>154,64,25</moduleColorSolidDefault>
+  <moduleColorStrong>45,47,43</moduleColorStrong> <!-->behindTitlePanel -->
+  <moduleColorBacking>6,6,6,205</moduleColorBacking>
+
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+
+  <thisComputerNode>4,181,110</thisComputerNode>
+
+  <exeModuleTopBar>0,43,51</exeModuleTopBar> <!-- 99,0,63 -->
+  <exeModuleTitleText>151,151,151,0</exeModuleTitleText>
+
+  <topBarIconsColor>200,200,200,0</topBarIconsColor>
+  <topBarTextColor>150,150,150,100</topBarTextColor>
+
+  <lockedColor>110,97,86,200</lockedColor>
+  <brightLockedColor>92,112,125</brightLockedColor>
+  <brightUnlockedColor>154,64,25</brightUnlockedColor>
+  <unlockedColor>108, 45, 18</unlockedColor>
+
+</CustomTheme>

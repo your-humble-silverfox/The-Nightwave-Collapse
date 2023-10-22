@@ -1,0 +1,13 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/gauntlet_end.txt" DelayHost="delayNode" Delay="0.0" SourceComp="rs_proxy" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <SwitchToTheme ThemePathOrName="Themes/nightwave.xml" FlickerInDuration="4.5" DelayHost="delayNode" Delay="3"/>
+        <ChangeAlertIcon Target="ircNode" Type="irchub" DelayHost="delayNode" Delay="4.5"/>
+    </Instantly>
+    <OnConnect target="ircNode">
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-shadow_letters.ogg" Delay="5.1"/>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="5.3">!ANNOUNCEMENT!</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.0">User @Pretence joined @channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.3">Error: faild configuring @ mention notifications, use channel wide mentions to mention @Pretence</AddIRCMessage>
+    </OnConnect>
+</ConditionalActions>

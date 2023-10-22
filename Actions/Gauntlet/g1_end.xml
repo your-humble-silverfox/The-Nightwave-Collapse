@@ -2,8 +2,12 @@
     <Instantly needsMissionComplete="false">
         <CrashComputer TargetComp="playerComp" CrashSource="g1_end" DelayHost="delayNode" Delay="0.0"/>
         <HideAllNodes DelayHost="delayNode" Delay="0.0"/>
+        <ShowNode DelayHost="delayNode" Delay="0.1" Target="g2_entry"/>
     </Instantly>
     <OnConnect target="playerComp">
-        <SwitchToTheme ThemePathOrName="hacknetWhite" FlickerInDuration="5.0" DelayHost="delayNode" Delay="0"/>
+        <SwitchToTheme ThemePathOrName="Themes/hourglass.xml" FlickerInDuration="5.0" DelayHost="delayNode" Delay="0"/>
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/lenaraine_inriskwetrust.ogg" Delay="0.0"/>
+        <LaunchHackScript Filepath="Scripts/211_open.txt" DelayHost="delayNode" Delay="0.0" SourceComp="bonsoir_gw" TargetComp="mael_outpost" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <LoadMission MissionName="Missions/gauntlet/mission_2.xml"/>
     </OnConnect>
 </ConditionalActions>

@@ -6,7 +6,7 @@
   </Instantly>
 
   <OnConnect target="centauri">
-    <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/moog-Tunnel_Run.ogg" Delay="5.0"/>
+    <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/moog-Tunnel_Run.ogg" Delay="5.1"/>
     <AddIRCMessage Author="Channel" TargetComp="centauri" Delay="6.5">!ANNOUNCEMENT!</AddIRCMessage>
     <AddIRCMessage Author="Channel" TargetComp="centauri" Delay="6.8">User "Pretence" id changed to @#PLAYERNAME#.</AddIRCMessage>
     <AddIRCMessage Author="Sunset" TargetComp="centauri" Delay="15.0">Oh, @Pretence, sorry having a change of heart?</AddIRCMessage>

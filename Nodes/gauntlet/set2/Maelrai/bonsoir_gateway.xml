@@ -1,0 +1,68 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bonsoir_gw" name="BonsoirSaynara_gateway" type="2" icon="laptop" allowsDefaultBootModule="true">
+    <ports>21,22,211,80,443,1433</ports>
+    <portsForCrack val="4"/>
+    <portRemap>21=1817,80=2416,22=1818,443=239,211=168</portRemap>
+    <proxy time="1"/>
+    <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+    <!--* Another mission crucial memory dump *-->
+    <Memory>
+        <Commands>
+            <Command>
+maelrai@bosagate~: sudo apt update
+[sudo] password for maelrai: ***********
+All packages are up to date
+maelrai@bosagate~: sudo apt install nortWL
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+    nortron-network-suite-3.17.51 nortronnetmanager
+The following NEW packages will be installed:
+    nortron-network-suite-3.17.51 nortronnetmanager nortWL
+0 upgraded, 3 newly installed, 0 to remove and 71 not upgraded.
+Need to get 781 kB of archives.
+After this operation 2,358 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 https://mirrors.nortron.com/netsuite/main amd64 nortron-network-suite-3.17.51-stable [367 kB]
+Get:2 https://mirrors.nortron.com/netmanager/main amd64 nortronnetmanager-stable-3 [156 kb]
+Get:3 https://mirrors.nortron.com/whitelist_mn/main amd64 nortWL-stable-1 [258 kb]
+Fetched 781 kB in 0s [17,150 kB/s]
+Selecting previously unselected package nortron-network-suite-3.17.51:amd64
+(Reading database ... 57191 files and directories currently installed.)
+Preparing to unpack .../nortron-network-suite-3.17.51_stable-amd64.deb ...
+Unpacking nortron-network-suite-3.17.51:amd64 (3.17.51-stable) ...
+Selecting previously unselected package nortronnetmanager-stable-3:amd64
+Preparing to unpack .../nortronnetmanager-stable-3_amd64.deb ...
+Unpacking nortronnetmanager-stable-3:amd64 (1.6.7-2) ...
+Selecting previously unselected package nortWL-stable-1:amd64
+Preparing to unpack .../nortWL-stable-1_amd64.deb ...
+Unpacking nortWL-stable-1:amd64 (1.0.2-1) ...
+Setting up nortron-network-suite-3.17.51:amd64 (3.17.51-stable) ...
+Setting up nortronnetmanager-stable-3:amd64 (1.6.7-2) ...
+Setting up ntWL-stable-1:amd64 (1.0.2-1) ...
+maelrai@bosagate~: nortWL --setup -source --target "224.201.39.116"
+Creating filesystem... Done
+Adjusting settings... Done
+Configuring whitelist... Done
+pass "--enable" arguement to initialize whitelist system
+maelrai@bosagate~: nortWL --enable
+------------------------------------------------
+Nortron Network Whitelist Suite
+Initializing system... Done
+Mode set: source
+Protected system: 224.201.39.116
+Establishing connection... Done
+Injecting modules... Done
+su password for protected system: **********
+Setting up modules... Done
+Opening transfer port... Done
+Initialization Complete
+------------------------------------------------
+            </Command>
+        </Commands>
+        <Data>
+            <Block></Block>
+        </Data>
+    </Memory>
+</Computer>

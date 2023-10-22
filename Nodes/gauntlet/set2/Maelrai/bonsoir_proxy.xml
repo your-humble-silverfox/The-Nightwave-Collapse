@@ -1,0 +1,91 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="bons_proxy" name="Proxy_Node-BOSA1380" type="4" icon="chip" ip="54.19.249.28" allowsDefaultBootModule="true">
+    <adminPass pass="qv383c1n846v377"/>
+    <CustomConnectDisplayDaemon />
+    <ports>21,22,211,443</ports>
+    <portsForCrack val="3"/>
+    <portRemap>21=1817,80=2416,22=1818,443=239,211=168</portRemap>
+    <proxy time="1"/>
+    <!--*Sequencer Filestructure*-->
+    <file path="sys/seq" name="config.json">{
+“host”: “localhost”,
+“port”: 554,
+“user”: “bonsay”,
+"isroot":true,
+“password”: “your_password”,
+“database”: “database_name”
+}</file>
+    <file path="sys/req" name="log.log">#BINARY#</file>
+    <file path="sys/seq" name="seq_enc.dll">#BINARY</file>
+    <file path="sys/seq" name="SEQUENCER_Runtime.dll">#BINARY#</file>
+    
+    <!--* Mission Crucial Memory Dump *-->
+    <Memory>
+        <Commands>
+            <Command>
+maelrai@bonsayprx~: ls home/memories
+sorry.txt
+howareyou.txt
+imissyou.txt
+thoughts.txt
+irc_log_71081.log
+youvebeengreat.txt
+thegods.txt
+anniversary.txt
+maelrai@bonsayprx~: cd home/memories
+maelrai@bonsayprx~: cat anniversary.txt
+Hey, darling...
+
+It's been a year already, I know. If you were here you'd tell me I went crazy. Leaving messages for a dead man that won't ever see them.
+Maybe I did, who knows, maybe I actually lost my mind. It was the best time of my life, taken away by a recklessness of a script-kiddie.
+
+If I had ever known what that cunt would pull off. "Leaving our names in history", fucking cunt, not understanding the boundaries. 
+There's always a place for idiots. If you're somehow reading this, forgive me... I really couldn't do anything to save you.
+maelrai@bonsayprx~: cd ..
+maelrai@bonsayprx~: rm -r memories
+            </Command>
+            <Command>
+>profiledumpv1_1.exe -gp crypsis
+Accessing profile...
+Name: Nicole Natsumi
+Age: 31
+Occupation: Software Engineer (Voidustry LLC)
+Profile Description: Self-proclaimed prophet of destruction
+Education: Ritsumeikan University, Masters of Computer Science
+Liked Pages: Nortron Digital Security, Neopals, Toyota USA, Toyota Japan, anonymous, lelzsec, digi-sec, wikileakes, kaguya_team
+Join Date: 27/08/2005
+Last Login: 4 years ago
+Last IP: 177.16.231.214
+Connected Profiles: 781
+Recently Viewed Profiles: (empty)
+Recently Chatted With: (empty)
+>disconnect
+            </Command>
+        </Commands>
+        <Data>
+            <Block>
+NRTSQC Sequencer suite log
+Data: 2018-15-09
+Time: 03:59 (GMT-7)
+User: maelrai
+IP Address: 224.201.39.116
+Action: Login
+Success: True
+            </Block>
+            <Block>[@providence] At least we know your funeral will be a civil service
+[@bonsoirsaynara] As you never knew it would happen?
+[@providence] You two wanted a job, I provided you with one. 
+[@bonsoirsaynara] There wasn't any warnings about how we were messing with, and about that kid you recommended.
+[@providence] Honestly, read the company policy. You were warned that there's no record on the guy, and that he didn't fuck up *yet*, which made him an option
+[@bonsoirsaynara] And how are you going to explain it to your employers?
+[@providence] I prefer to word it as some "mortal-middle-management", although it sucks I am not having an employer on this one.
+[@bonsoirsaynara] You're insufferable. My time's over, I get it. Not Jintech, then your associates. But don't you dare touching Mael, Rai's not aware of all this.
+[@providence] I'm looking for data. My data, that you lost. Everyone who has it is will save on the hearse
+[@bonsoirsaynara] You fucking muppet
+[@providence] Nothing personal, my policy is "satisfaction guaranteed", especially mine.
+* providence left the channel
+            </Block>
+        </Data>
+    </Memory>
+    <dlink target="bonsoir_gw"/>
+</Computer>

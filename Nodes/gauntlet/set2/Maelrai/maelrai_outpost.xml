@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mael_outpost" name="Maelrai Outpost" type="4" icon="DLCServer" security="2" ip="224.201.39.116" allowsDefaultBootModule="true">
+    <CustomConnectDisplayDaemon />
+    <ports>21,80,443,211,22</ports>
+    <portsForCrack val="5"/>
+    <file path="home/recepies" name="espresso-tonic.txt">Ingriedients:
+30ml espresso
+tonic water, to top up
+ice
+lime wedge, to garnish
+
+Method:
+STEP 1
+Brew 30ml espresso, then leave to cool slightly. Slowly pour over a large glass of tonic water with plenty of ice. Garnish with a lime wedge, if you like, before serving.
+    </file>
+    <file path="home/recepies" name="Ponzu tofu poke bowl.txt">Ingredients
+1 tbsp ponzu sauce
+½ tbsp rice vinegar
+5g ginger, peeled and grated
+1 tsp sesame oil
+300g silken tofu
+100g edamame beans
+250g pouch cooked quinoa
+100g radishes, sliced
+2 carrots, peeled into ribbons
+2 spring onions, finely sliced
+2 small seaweed thins, crumbled
+1 tsp sesame seeds
+
+Method:
+STEP 1
+Combine the ponzu, vinegar, ginger and sesame oil in a bowl. Pat the tofu dry using kitchen paper and tear into chunks, then gently toss in the ponzu mixture.
+
+STEP 2
+Pour some boiling water over the edamame and set aside for 2 mins before draining thoroughly and seasoning with salt.
+
+STEP 3
+Divide the quinoa between bowls and top with the edamame, radishes and carrots. Spoon over the tofu and drizzle over the remaining dressing before scattering over the spring onions, seaweed and sesame seeds.    
+    </file>
+    <!--*Memory Dump*-->
+    <Memory>
+        <Commands>
+                <Command>maelrai@mlrpathway~: curl ipecho.net/plain ; echo
+77.134.3.180
+77.134.3.62
+77.134.3.119
+77.134.3.208
+                </Command>
+            </Commands>
+        <Data>
+            <Block>At the edge of understanding, the border of the known
+The breaking point of reason where logic is dethroned
+Where sense is defenseless and festers on the bone
+You'll find providence's offensive is rendered in the stone</Block>
+        </Data>
+    </Memory>
+</Computer>

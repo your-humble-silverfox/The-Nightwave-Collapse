@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="g2_entry" name="Crack in the Hourglass" type="4" icon="chip" allowsDefaultBootModule="true">
+    <ports>211</ports>
+    <portsForCrack val="0"/>
+    <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+    <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+    <file path="home" name="readme.txt">
+You can tighten violence by refining the appliance of it.
+This is exactly what we require of you.
+
+Your task is to find the targeted asset, neutralize their source system, whilst retrieving any and all assets related to Jintech Inc and Vittorum Consciousness hackersquad.
+Information about your target as well as programs we find necessary for completion of your operation can be found on this server.
+
+We will be watching, and remember, should you decide not to complete your task: You don't need a wake for a Damien Hurst.
+    </file>
+    <memoryDumpFile name="Privacy_is_the_cry_of_the_defiant_to_compliancy.md" path="home">
+        <Memory>
+            <Data>
+                <Block>Notes on @Maelrai, investigation for [REDACTED] by [REDACTED]
+
+Linked names:
+Merethe Trygstad - found in Europol reports, description fits typical MO
+Marc-Antoine Lemoine - @BonsoirSaynara, known affliate. Assasinated in 2017 in Montreal. 
+Inessa von Coevorden - Known friend of hers. Allegedly assisted in attack on Algemene Inlichtingen- en Veiligheidsdienst
+Merit Sokk - name linked to Merethe, however no other record than a single "possible affiliate", courtesy of Estonian Europol, is not found elsewhere.
+
+Known aliases:
+0d1nkirk - 2005-2009, Project Chanology, Operation Didgeridie
+C4llypsoid - 2012-2014, Operation Russia, Interpol Attack, Operation Singapore, Operation Ferguson
+Tsoustorm - 2014-2016, Operation Death Eaters, OPKKK, AIVD attack
+Maelrai - 2016-current time. Jingate, Operation Neo-Tokyo
+
+Occupation:
+She's known in the hacker scene. Very well regarded by everyone, although trigger-happy.
+There's not much fingerprints, and those that are left seem deliberate. Possibly left to lure away the curious. Caution about her breadcrumbs is advised.
+The only place where she's active is "kernel.hardline" message board, known by her snake logo(?). From info on there, she likes to collect rare tools, this could be your entry point.
+                
+Known IPs:
+87.163.44.193 - NOW DEFUNCT - Found in AIVD logs, possibly a proxy
+
+239.191.66.106 - NOW DEFUNCT - Was linked in old kernel post as a "tryhackme" challenge.
+
+54.19.249.28 - Proxy of @BonsoirSaynara, active every now and then, possibly used by @Maelrai
+
+82.91.245.23 - NOW DEFUNCT - Published on dark net by Jintech affiliated hackers with a bounty for info on it's owner.
+
+219.142.103.127 - NOW DEFUNCT - Used to connect to kernel.hardline, possibly a proxy
+
+Contact details:
+Snake @ kernel.hardline
+                </Block>
+            </Data>
+        </Memory>
+    </memoryDumpFile>
+</Computer>

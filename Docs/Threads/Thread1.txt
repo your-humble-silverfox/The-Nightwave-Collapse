@@ -1,0 +1,46 @@
+code
+------------------------------------------
+#Chip
+>Daily coding task
+Today's topic: Regex
+
+Write a program that takes a text file as input and replaces "the"/"of"/"and" with "_the"/"_of"/"_and" respectively.
+------------------------------------------
+Wow... Now that's something complicated!
+------------------------------------------
+Relatively easy if you ask me.
+------------------------------------------
+#Snake
+You serious... Come on, we don't need to breed idiots who consider this a task here. 
+Just why do you do this? Is it to annoy me or anyone else who sits just a thread below?
+------------------------------------------
+#Chip
+Ease up, snake, your venom ain't gonna kill me. 
+
+You want people to become good, you give them keys to becoming good, don't tell me you weren't a script kiddie back in the day.
+------------------------------------------
+Howdy, peeps
+got this, is it right?
+
+import re
+from pathlib import Path
+
+def main():
+    file_name = "input.txt"
+    output_file = "output.txt"
+
+    with open(file_name, 'r') as file:
+        content = file.read()
+
+    pattern = re.compile(r'\b(the|and|of)\b')
+    replacement = r'\1'
+
+    result = pattern.sub(replacement, content)
+
+    with Path(file_name).with_suffix('.bak') as backup, Path(output_file) as output:
+        backup.write_text(content)
+        output.write_text(result)
+------------------------------------------
+#Chip
+Yes it is, impressive! Nice work out there
+------------------------------------------

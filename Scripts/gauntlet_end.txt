@@ -1,0 +1,12 @@
+config playerComp enemyComp 0.5 $#%#$
+
+connect $#%#$
+
+clearTerminal $#%#$
+writel Greetings, @Pretence $#%#$
+writel   $#%#$
+writel We've been impressed by your performance $#%#$
+writel And have decided that you're well qualified for our group $#%#$
+writel Welcome to Nightwave Society $#%#$
+
+disconnect $#%#$

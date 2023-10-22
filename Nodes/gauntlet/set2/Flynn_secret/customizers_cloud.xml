@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="flynn_cloud" name="kernel.tuners.cloud" type="3" icon="chip" ip="kernel.tuners.cloud" allowsDefaultBootModule="true">
+    <ports>22,211,21,80,25</ports>
+    <portsForCrack val="4"/>
+    <portRemap>21=78,22=77,211=788,80=19,25=74</portRemap>
+    <firewall solution="thecrownofleaves" additionalTime="0"/>
+    <uploadServerDaemon name="kernel.tuners cloud" folder="Drop" needsAuth="true" color="105,105,105"/>
+    <customthemefile path="Drop/Uploads" name="flynn_x-server.sys" themePath="Themes/flynn.xml"/>
+    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+    <dlink target="flynn_irc"/>
+</Computer>

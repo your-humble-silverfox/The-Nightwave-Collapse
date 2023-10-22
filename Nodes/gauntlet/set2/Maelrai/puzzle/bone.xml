@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="maelpuzzle_3" name="Proxy_Node-FESTERS_ON_THE_BONE" type="3" icon="chip" ip="" allowsDefaultBootModule="true">
+    <ports>21,22,80,1433,443</ports>
+    <portsForCrack val="5"/>
+    <firewall solution="wheresenseisdefenseless" additionalTime="0.5"/>
+    <proxy time="1.5"/>
+    <!--*KEY*-->
+    <Memory>
+        <Data>
+            <Block>192</Block>
+        </Data>
+    </Memory>
+</Computer>

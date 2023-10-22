@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="kernel.cloud" name="kernel.hardline cloud repositorium" type="3" icon="DLCServer" ip="kernel.hardline.cloud" allowsDefaultBootModule="true">
+    <ports>211,9418,80,443,554,25,21</ports>
+    <portsForCrack val="5"/>
+    <portRemap>21=78,22=77,211=788,80=19,25=74,9418=582</portRemap>
+    <firewall level="7" additionalTime="40"/>
+    <proxy time="5.9"/>
+    <account username="user" password="quartermaster" type="1"/>
+    <uploadServerDaemon name="kernel.cloud" folder="Drop" needsAuth="true" color="99,26,16"/>
+    <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+</Computer>

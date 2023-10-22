@@ -1,6 +1,6 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>The Nightwave Collapse</Name>
+	<Name>Nightwave Collapse</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
@@ -25,7 +25,7 @@
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>True</HasIntroStartup>
   
-  <StartingTheme>Themes/MiamiThemeLightBlue.xml</StartingTheme>
+  <StartingTheme>Themes/hourglass.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint

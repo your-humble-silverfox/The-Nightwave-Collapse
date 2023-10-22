@@ -1,16 +1,16 @@
 <CustomTheme>
-  <themeLayoutName>miamiLight</themeLayoutName>
-  <backgroundImagePath>Themes/Backgrounds/vice.png</backgroundImagePath>
+  <themeLayoutName>colamaeleon</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/flynnartbook.png</backgroundImagePath>
 
-  <defaultHighlightColor>191,29,86</defaultHighlightColor> <!-- 184,51,122 -->
-  <defaultTopBarColor>125,29,51</defaultTopBarColor> <!-- 140,6,53 -->
+  <defaultHighlightColor>171,202,215</defaultHighlightColor> <!-- 184,51,122 -->
+  <defaultTopBarColor>40,42,45</defaultTopBarColor> <!-- 140,6,53 -->
   <warningColor>183,255,0</warningColor>
   
   <shellColor>255,115,164,0</shellColor>
   <shellButtonColor>255,180,0</shellButtonColor>
 
-  <moduleColorSolidDefault>0,86,143</moduleColorSolidDefault>
-  <moduleColorStrong>0,94,112</moduleColorStrong> <!-->behindTitlePanel -->
+  <moduleColorSolidDefault>77,96,112</moduleColorSolidDefault>
+  <moduleColorStrong>77,96,112</moduleColorStrong> <!-->behindTitlePanel -->
   <moduleColorBacking>6,6,6,205</moduleColorBacking>
 
   <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
@@ -26,9 +26,9 @@
   <topBarIconsColor>200,200,200,0</topBarIconsColor>
   <topBarTextColor>150,150,150,100</topBarTextColor>
 
-  <lockedColor>77,11,49,200</lockedColor>
-  <brightLockedColor>160,0,48</brightLockedColor>
-  <brightUnlockedColor>0,160,120</brightUnlockedColor>
-  <unlockedColor>0,92,69</unlockedColor>
+  <lockedColor>61,78,87,200</lockedColor>
+  <brightLockedColor>92,112,125</brightLockedColor>
+  <brightUnlockedColor>171,202,215</brightUnlockedColor>
+  <unlockedColor>128,150,168</unlockedColor>
 
 </CustomTheme>
