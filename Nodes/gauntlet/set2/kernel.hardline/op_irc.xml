@@ -1,6 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="kernel_vrt_irc" name="OP_VRT_Drawdown_irc_channel" type="4" icon="chip" ip="3.123.57.28" allowsDefaultBootModule="true">
-    <IRCDaemon themeColor="176,196,222" name="VRT Drawdown" needsAuth="true">
+    <ports>22,21,1433</ports>
+    <portsForCrack val="3"/>
+    <IRCDaemon themeColor="176,196,222" name="VRT Drawdown" needsLogin="True">
         <agent name="Inexor" color="107,142,35"/>
         <agent name="Reinakai" color="189,183,107"/>
         <agent name="Maelrai" color="129, 19, 49"/>

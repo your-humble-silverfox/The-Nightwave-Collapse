@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="kernel.hardline" name="kernel.hardline" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+<Computer id="kernel.hardline" name="kernel.hardline" type="4" ip="kernel.hardline" icon="DLCServer" allowsDefaultBootModule="true">
     <ports>211,9418,80,443,554,25,21</ports>
     <portsForCrack val="5"/>
     <portRemap>21=78,22=77,211=788,80=19,25=74,9418=582</portRemap>

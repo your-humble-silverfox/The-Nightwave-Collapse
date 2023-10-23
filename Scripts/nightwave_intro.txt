@@ -1,4 +1,4 @@
-config playerComp rs_proxy 0.5 $#%#$
+config playerComp g1_entry 0.5 $#%#$
 delete /sys x-server.sys $#%#$
 delete /bin * $#%#$
 connect $#%#$
@@ -20,4 +20,4 @@ write > Congratulations on completing the first test $#%#$
 writel  $#%#$
 write > Your true trial begins now $#%#$
 writel  $#%#$
-write > - Welcome to NIGHTWOKEN GAUNTLET $#%#$ 
+write > Welcome to NIGHTWOKEN GAUNTLET

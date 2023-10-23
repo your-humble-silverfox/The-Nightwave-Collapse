@@ -1,11 +1,12 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="bons_proxy" name="Proxy_Node-BOSA1380" type="4" icon="chip" ip="54.19.249.28" allowsDefaultBootModule="true">
+<Computer id="bons_proxy" name="Proxy_Node-BOSA1380" type="3" icon="chip" ip="54.19.249.28" allowsDefaultBootModule="true">
     <adminPass pass="qv383c1n846v377"/>
     <CustomConnectDisplayDaemon />
     <ports>21,22,211,443</ports>
     <portsForCrack val="3"/>
     <portRemap>21=1817,80=2416,22=1818,443=239,211=168</portRemap>
     <proxy time="1"/>
+    <dlink target="bonsoir_gw"/>
     <!--*Sequencer Filestructure*-->
     <file path="sys/seq" name="config.json">{
 “host”: “localhost”,
@@ -15,7 +16,7 @@
 “password”: “your_password”,
 “database”: “database_name”
 }</file>
-    <file path="sys/req" name="log.log">#BINARY#</file>
+    <file path="sys/seq" name="log.log">#BINARY#</file>
     <file path="sys/seq" name="seq_enc.dll">#BINARY</file>
     <file path="sys/seq" name="SEQUENCER_Runtime.dll">#BINARY#</file>
     
@@ -87,5 +88,5 @@ Success: True
             </Block>
         </Data>
     </Memory>
-    <dlink target="bonsoir_gw"/>
+
 </Computer>

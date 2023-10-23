@@ -3,7 +3,7 @@
     <ports>22,21,25,211</ports>
     <portsForCrack val="1"/>
     <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
-    <!--*hero riddle (135.139.236.104)*-->
+    <!--*hero riddle (236.135.139.104)*-->
     <file path="home" name="e.txt">
 “The true dwe1lers help you embrace
 the darkness in yours3lf and wield it at will.

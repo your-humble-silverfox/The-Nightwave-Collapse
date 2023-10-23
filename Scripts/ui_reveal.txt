@@ -1,5 +1,11 @@
-config playerComp delayNode 0.5 $#%#$
+config playerComp g1_entry 0 $#%#$
 
+hideNetMap $#%#$
+hideRam $#%#$
+hideDisplay $#%#$
+hideTerminal $#%#$
 showNetMap $#%#$
 showRam $#%#$
 showDisplay $#%#$
+showTerminal $#%#$
+stopMusic $#%#$
