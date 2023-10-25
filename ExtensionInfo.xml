@@ -25,7 +25,7 @@
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>True</HasIntroStartup>
   
-  <StartingTheme>Themes/hourglass.xml</StartingTheme>
+  <StartingTheme>Themes/miamithemelightblue.xml</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
