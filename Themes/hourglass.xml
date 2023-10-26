@@ -6,7 +6,7 @@
   <defaultTopBarColor>154,64,25</defaultTopBarColor> <!-- 140,6,53 -->
   <warningColor>183,255,0</warningColor>
   
-  <shellColor>255,115,164,0</shellColor>
+  <shellColor>154,64,25,0</shellColor>
   <shellButtonColor>255,180,0</shellButtonColor>
 
   <moduleColorSolidDefault>154,64,25</moduleColorSolidDefault>

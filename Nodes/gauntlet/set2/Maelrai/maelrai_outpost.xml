@@ -2,7 +2,7 @@
 <Computer id="mael_outpost" name="Maelrai Outpost" type="4" icon="DLCServer" security="2" ip="224.201.39.116" allowsDefaultBootModule="true">
     <CustomConnectDisplayDaemon />
     <ports>21,80,443,211,22</ports>
-    <portsForCrack val="5"/>
+    <portsForCrack val="4"/>
     <file path="home/recepies" name="espresso-tonic.txt">Ingriedients:
 30ml espresso
 tonic water, to top up
