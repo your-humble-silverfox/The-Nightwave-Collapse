@@ -3,14 +3,15 @@
         <RunFunction FunctionName="addFlags:gauntlet1_win" FunctionValue="0" DelayHost="delayNode" Delay="0.0"/>
         <LaunchHackScript Filepath="Scripts/ui_reveal.txt" DelayHost="delayNode" Delay="0.0" SourceComp="g1_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
         <HideAllNodes DelayHost="delayNode" Delay="0.0"/>
+        <ChangeAlertIcon Target="kernel.hardline" Type="board" DelayHost="delayNode" Delay="0.0"/>
         <SwitchToTheme ThemePathOrName="Themes/hourglass.xml" FlickerInDuration="0" DelayHost="delayNode" Delay="0"/>
         <ShowNode DelayHost="delayNode" Delay="0.1" Target="g2_entry"/>
-               <CrashComputer TargetComp="playerComp" CrashSource="g1_end" DelayHost="delayNode" Delay="0.2"/>
+        <ShowNode DelayHost="delayNode" Delay="0.1" Target="kernel.hardline"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="g1_end" DelayHost="delayNode" Delay="0.2"/>
     </Instantly>
     <OnConnect target="playerComp">
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/lenaraine_inriskwetrust.ogg" Delay="0.0"/>
         <LaunchHackScript Filepath="Scripts/211_open.txt" DelayHost="delayNode" Delay="0.0" SourceComp="bonsoir_gw" TargetComp="mael_outpost" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-        <ChangeAlertIcon Target="kernel.hardline" Type="board" DelayHost="delayNode" Delay="0.0"/>
         <LoadMission MissionName="Missions/gauntlet/mission_2.xml"/>
     </OnConnect>
 </ConditionalActions>

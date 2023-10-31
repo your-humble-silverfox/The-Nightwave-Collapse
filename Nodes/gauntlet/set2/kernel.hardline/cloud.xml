@@ -8,7 +8,7 @@
     <adminPass pass="quartermaster"/>
     <uploadServerDaemon name="kernel.cloud" folder="Drop" needsAuth="true" color="99,26,16"/>
     <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
-    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
     <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
     <dlink target="kernel.hardline"/>
 </Computer>

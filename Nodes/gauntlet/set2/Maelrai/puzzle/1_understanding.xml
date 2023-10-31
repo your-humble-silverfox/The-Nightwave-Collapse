@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="maelpuzzle_1" name="Proxy_Node-EDGE_OF_UNDERSTANDING" type="3" icon="chip" ip="77.134.3.119" allowsDefaultBootModule="true">
+<Computer id="maelpuzzle_1" name="Proxy_Node-EDGE_OF_UNDERSTANDING" type="3" icon="chip" ip="77.134.3.180" allowsDefaultBootModule="true">
     <ports>21,22,80,1433</ports>
     <portsForCrack val="2"/>
     <firewall solution="borderoftheknown" additionalTime="0"/>

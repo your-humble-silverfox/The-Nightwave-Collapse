@@ -4,31 +4,31 @@
     <portsForCrack val="4"/>
     <portRemap>21=78,22=77,211=788,80=19,25=74</portRemap>
     <IRCDaemon themeColor="105,105,105" name="kernel.tuners.chat" needsAuth="false">
-        <agent name="Fivka" color="238,232,170"/>
+        <agent name="Ivka" color="238,232,170"/>
         <agent name="Ange" color="220,20,60"/>
         <agent name="N0kLinsiq" color="0,250,154"/>
         <agent name="Adamkriaco" color="176, 118, 253"/>
         <agent name="TheWrenchFries" color="255,204,54"/>
-        <post user="Fivka">You know, looking at your theme, I just can't work with it.</post>
+        <post user="Ivka">You know, looking at your theme, I just can't work with it.</post>
         <post user="Ange">Huh?!</post>
         <post user="Ange">Is it broken? What's wrong?</post>
-        <post user="Fivka">No-no. I just... I keep back staring at him</post>
+        <post user="Ivka">No-no. I just... I keep staring back at him</post>
         <post user="Ange">...</post>
         <post user="Ange">Wait, who... What?</post>
-        <post user="Fivka">Y'know... Flynn</post>
+        <post user="Ivka">Y'know... Flynn</post>
         <post user="Ange">Oh come on. Isn't it inspiring?</post>
         <post user="Ange">As if he's there, watching over your actions, supporting you, like calming, isn't it?</post>
-        <post user="Fivka">Being stared down is not my thing, really</post>
-        <post user="TheWrenchFries">Must agree with Fivka here. That smug furry face gives me the creeps.</post>
+        <post user="Ivka">Being stared down is not my thing, really</post>
+        <post user="TheWrenchFries">Must agree with Ivka here. That smug furry face gives me the creeps.</post>
         <post user="TheWrenchFries">With the fucked up netMap placement this thing might be a nominee for the worst theme of the channel.</post>
         <post user="Ange">@TheWrenchFries, it's not a furry! It's a sahash!</post>
         <post user="Adamkriaco">its a goat</post>
         <post user="TheWrenchFries">I could pretend I care about a classification of anthropomorphous animals but the truth is I don't give a fuck.</post>
         <post user="TheWrenchFries">This excuse of yours only reinforces my thoughts of you being a furry nerd.</post>
         <post user="TheWrenchFries">And the thing is your comment doesn't belittle the overall wretchedness of the theme, so it still sucks.</post>
-        <post user="N0klinsiq">@Fivka, not like ya runnin' a facken macrosoft bliss</post>
-        <post user="Fivka">It's actually unnerving...</post>
-        <post user="N0klinsiq">@Ange where I can get ye' thing? Wanna take a peek at it, since Fivka got all scared</post>
+        <post user="N0klinsiq">@Ivka, not like ya runnin' a facken macrosoft bliss</post>
+        <post user="Ivka">It's actually unnerving...</post>
+        <post user="N0klinsiq">@Ange where I can get ye' thing? Wanna take a peek at it, since Ivka got all scared</post>
         <post user="Ange">I'll get it up to the cloud when I get home</post>
         <post user="N0klinsiq">We have a cloud for this?</post>
         <post user="Ange">Yep, a whole subdomain, the ".cloud" one</post>

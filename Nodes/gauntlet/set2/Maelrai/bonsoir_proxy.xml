@@ -9,12 +9,12 @@
     <dlink target="bonsoir_gw"/>
     <!--*Sequencer Filestructure*-->
     <file path="sys/seq" name="config.json">{
-“host”: “localhost”,
-“port”: 554,
-“user”: “bonsay”,
+"host": "localhost",
+"port": 554,
+"user": "bonsay",
 "isroot":true,
-“password”: “your_password”,
-“database”: “database_name”
+"password": "your_password",
+"database": "database_name"
 }</file>
     <file path="sys/seq" name="log.log">#BINARY#</file>
     <file path="sys/seq" name="seq_enc.dll">#BINARY</file>
