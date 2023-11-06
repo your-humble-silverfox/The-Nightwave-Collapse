@@ -2,10 +2,10 @@
 	<!-- AwayTooLong -->
 
 	<!-- "csec" makes the same layout -->
-	<themeLayoutName>greencompact</themeLayoutName>
-	<backgroundImagePath>Themes\Backgrounds\Nightwave.png</backgroundImagePath>
+	<themeLayoutName>riptide</themeLayoutName>
+	<backgroundImagePath>Themes\Backgrounds\BetweenTheLines.jpg</backgroundImagePath>
 
-	<defaultHighlightColor>239,107,12,255</defaultHighlightColor>
+	<defaultHighlightColor>216,53,38,255</defaultHighlightColor>
 	<defaultTopBarColor>110,35,18,255</defaultTopBarColor>
 	<highlightColor>117,34,13, 255</highlightColor>
 	<shellColor>156, 185, 190</shellColor>
