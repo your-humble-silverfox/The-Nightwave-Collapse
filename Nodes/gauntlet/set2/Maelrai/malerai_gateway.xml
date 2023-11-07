@@ -1,8 +1,9 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="maelrai_gw" name="Maelrai_Gateway" type="2" icon="laptop" ip="102.36.192.122" allowsDefaultBootModule="true">
     <ports>21,22,211,1433,443,25,80</ports>
+    <portRemap>21=7574,22=7171,211=7544,1433=8766,443=776,25=7578,80=73</portRemap>
     <portsForCrack val="6"/>
-    <firewall solution="elegantmalevolence" additionalTime="2.5"/>
+    <firewall solution="elegantmalevolence" additionalTime="1.25"/>
     <proxy time="2.5"/>
     <CustomConnectDisplayDaemon />
     <!--*Mission Goal Files*-->
@@ -35,6 +36,11 @@ t0d0m3k1: A matter of time.
     <file path="home/operations/vittorum" name="vittorum_consciousness_mantra.pdf">#BINARY#</file>
     <file path="home/operations/vittorum" name="vc_pricelist.pdf">#BINARY#</file>
     <file path="home/operations/vittorum" name="vc_client_database.nugg">#BINARY</file>
+    <!--executables-->
+    <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+    <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+    <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+    <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
     <WhitelistAuthenticatorDaemon Remote="bonsoir_gw"/>
     <!--*FTPSprint Secret*-->
     <Memory>

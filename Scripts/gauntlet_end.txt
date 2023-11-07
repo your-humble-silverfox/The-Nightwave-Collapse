@@ -1,4 +1,4 @@
-config playerComp enemyComp 0.5 $#%#$
+config playerComp g1_entry 0.5 $#%#$
 
 connect $#%#$
 

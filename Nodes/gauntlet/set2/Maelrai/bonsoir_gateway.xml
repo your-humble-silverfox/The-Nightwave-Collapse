@@ -5,6 +5,10 @@
     <portRemap>21=1817,80=2416,22=1818,443=239,211=168</portRemap>
     <proxy time="1"/>
     <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+    <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+    <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+    <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
     <!--* Another mission crucial memory dump *-->
     <Memory>
         <Commands>

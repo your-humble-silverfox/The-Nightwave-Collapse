@@ -1,9 +1,8 @@
 <CustomTheme>
 	<!-- AwayTooLong -->
 
-	<!-- "csec" makes the same layout -->
 	<themeLayoutName>riptide</themeLayoutName>
-	<backgroundImagePath>Themes\Backgrounds\BetweenTheLines.jpg</backgroundImagePath>
+	<backgroundImagePath>Themes/Backgrounds/BetweentheLines.png</backgroundImagePath>
 
 	<defaultHighlightColor>216,53,38,255</defaultHighlightColor>
 	<defaultTopBarColor>110,35,18,255</defaultTopBarColor>
@@ -13,7 +12,7 @@
 	<moduleColorSolid>242,107,12,255</moduleColorSolid>
 	<moduleColorSolidDefault>117,34,13, 100</moduleColorSolidDefault>
 	<moduleColorStrong>156,44,18,255</moduleColorStrong>
-	<moduleColorBacking>6, 6, 6, 10</moduleColorBacking>
+	<moduleColorBacking>6, 6, 6, 90</moduleColorBacking>
 	<topBarColor>20, 20, 20</topBarColor>
 	<terminalTextColor>255, 255, 255</terminalTextColor>
 	<AFX_KeyboardMiddle>220, 220, 220</AFX_KeyboardMiddle>

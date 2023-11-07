@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="EnWS01" name="EnTech Workstation _07" type="3" ip="156.151.0.78">
   <!--*Riley Whitfield Workstation*-->
-  <firewall level="3" additionalTime="1.5"/>
+  <firewall level="1" additionalTime="1.5"/>
   <ports>80, 22, 1433, 25, 21</ports>
   <portsForCrack val="4" />
   <file path="home/team" name="office_lounge_speech.txt">Ladies and gentlemen,

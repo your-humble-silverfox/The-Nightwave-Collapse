@@ -8,6 +8,6 @@
     <DHSDaemon groupName="Nightwave" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="123,25,25" allowContractAbbandon="false">
         <agent name="Pretence" pass="remittance" color="190,158,117"/>
         <agent name="Reigning_Strife" pass="chaos" color="240, 125, 16"/>
-        <agent name="Dodomeki" pass="kano" color="135, 156, 61"/>
+        <agent name="Akamanto" pass="kano" color="135, 156, 61"/>
     </DHSDaemon>
 </Computer>
