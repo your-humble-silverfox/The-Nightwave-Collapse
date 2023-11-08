@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="finale" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="fileupload" target="vegasstrip" file="worldgone.sh" path="home" destTarget="jin-mainframe" destPath="sys"/>
+    </goals>
+
+    <missionEnd>loadConditionalActions:Actions/Finale.xml</missionEnd>
+
+    <nextMission IsSilent="false">NONE</nextMission>
+
+    <posting title="New Mission!"></posting>
+
+    <email>
+        <sender>Bit</sender>
+        <subject>Hello</subject>
+        <body>Hi, my name is Bit. And if you're reading this, then I'm already dead.</body>
+        <attachments>
+        </attachments>
+    </email>
+</mission>

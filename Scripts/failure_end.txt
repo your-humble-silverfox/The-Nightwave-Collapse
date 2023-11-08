@@ -1,0 +1,17 @@
+config playerComp rs_gateway 5 $#%#$
+stopMusic $#%#$
+writel You're one of them $#%#$
+writel I have heard that there are those who would defy us $#%#$
+writel Who'd choose oppression o'er ascension for the pious $#%#$
+writel Dissidents without repent are bent on questioning the dias $#%#$
+writel Twisted iron fist pariahs and their heretic messiah $#%#$
+writel Winter blizzards to infinity, so sing the hymns and litanies $#%#$
+writel Hand in and skin the sinners if you wish to skim divinity $#%#$
+writel Each shiver will deliver us deliverance in time $#%#$
+writel Burn the innocents for penitence if we preempt the crime $#%#$
+writel I'm protector of the truth, great erector of the new faith $#%#$
+writel Defectors and objectors can expect a second doomsday $#%#$
+writel Unquestioning our destiny, relentless, we pursue fate $#%#$
+writel Alone I have been chosen to be spoken through by true grace... $#%#$
+writel Frozen omens say we should invoke another crusade $#%#$
+delete /sys x-server.sys $#%#$

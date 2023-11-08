@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="rs_gateway" name="Strife_Gateway" type="4" icon="laptop" security="2" allowsDefaultBootModule="true">
-    <ports>22,21,25,80,443</ports>
-    <portsForCrack val="5"/>
+    <ports>22,21,25,80,443,211</ports>
+    <portsForCrack val="6"/>
     <firewall level="5" additionalTime="1.5"/>
 
     <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>

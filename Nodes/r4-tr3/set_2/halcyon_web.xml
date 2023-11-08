@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="halcyon_web" name="John Halcyon Website" icon="chip" security="3" ip="jhalcyonpi.com" allowsDefaultBootModule="true">
+    <addWebServer name="John Halcyon - Private Investigator of Choice!" url="Web/404/index.html"/>
+    <ports>80</ports>
+    <portsForCrack val="1"/>
+    <dlink target="pi_database"/>
+</Computer>

@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="astoria-web" name="Astoria.com" type="3" icon="DLCServer" ip="Astoria.com" allowsDefaultBootModule="true">
+    <addWebServer name="Astoria - Your Net-Sec Contractor" url="Web/Astoria/index.html"/>
+    <ports>21,6881,443,80</ports>
+    <portsForCrack val="3"/>
+    <portRemap>21=340,80=9010,443=28</portRemap>
+    <dlink target="astoria-web-bridge"/>
+</Computer>

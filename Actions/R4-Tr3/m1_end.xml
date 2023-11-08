@@ -1,0 +1,15 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/r4-tr3/entry.txt" DelayHost="delayNode" Delay="0.0" SourceComp="r4_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <SwitchToTheme ThemePathOrName="Themes/giantfall.xml" FlickerInDuration="8.0" DelayHost="delayNode" Delay="0.0"/>
+        <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delayNode" Delay="0.0"/>
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-thebadnews.ogg" Delay="8.0"/>
+        <HideAllNodes DelayHost="delayNode" Delay="8.0"/>
+        <ShowNode DelayHost="delayNode" Delay="8.0" Target="playerComp"/>
+        <CrashComputer TargetComp="r4_entry" CrashSource="r4tr3-site" DelayHost="delayNode" Delay="5.1"/>
+    </Instantly>
+    <OnDisconnect target="r4_entry">
+        <ShowNode DelayHost="delayNode" Delay="0" Target="astoria-web"/>
+        <LaunchHackScript Filepath="Scripts/r4-tr3/astoria_start.xml" DelayHost="delayNode" Delay="0" SourceComp="r4_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    </OnDisconnect>
+</ConditionalActions>

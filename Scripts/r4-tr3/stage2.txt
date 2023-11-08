@@ -1,0 +1,8 @@
+config playerComp r4_entry 0.5 $#%#$
+
+clearTerminal $#%#$
+writel First it was ink, now it's data and digits $#%#$
+writel So no matter how painful the itch is, change is a fixture your brain's got to live with $#%#$
+writel Or is it one of Satan's tricks? What's waiting to get us when we race to the finish? $#%#$
+writel Our base nature's unable to take to the pace of the changes we make from beginnings $#%#$
+writel But those who adapt faster than their competitors are better placed to be taking the winnings $#%#$

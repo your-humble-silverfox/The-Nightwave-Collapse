@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="s2m2">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+    <posting title="Analyze secured files">There's an asset soon to be visiting Jintech's megatower.
+We need to pressure him into doing us a few favors, just right task for Akamanto.</posting>
+  <email>
+    <sender>Crypsis</sender>
+    <subject>1</subject>
+    <body>1</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

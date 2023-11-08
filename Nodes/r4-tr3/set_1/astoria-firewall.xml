@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="astoria-firewall" name="Astoria Mainframe" type="4" icon="laptop" allowsDefaultBootModule="true">
+    <WhitelistAuthenticatorDaemon SelfAuthenticating="false" />
+    <CustomConnectDisplayDaemon />
+    <ports>21,1433,25,6881,22</ports>
+    <portsForCrack val="3"/>
+    <proxy time="1"/>
+    <portRemap>21=340,25=91,1443=2887,22=344</portRemap>
+</Computer>

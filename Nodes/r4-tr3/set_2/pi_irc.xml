@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pi_irc" name="Halcyon Private Investigations LLC IRC Channel" type="4" icon="chip" allowsDefaultBootModule="true">
+    <ports>22,21,80,25</ports>
+    <portsForCrack val="4"/>
+    <portRemap>21=265,25=250,443=856</portRemap>
+    <IRCDaemon themeColor="70,40,4" name="PI Chat" needsLogin="True">
+        <agent name="JHalcyon" color="163,118,61"/>
+        <agent name="COrgen" color="63,73,82"/>
+        <post user="JHalcyon">Hey, Carl, how's the case with the kid going?</post>
+        <post user="COrgen">Well, I feel like police are doing their work, but I still keep a look at it.</post>
+        <post user="JHalcyon">Got a feeling it's over?</post>
+        <post user="COrgen">It's been three months, John, best that can happen is we never find him ever.</post>
+        <post user="COrgen">Stuff like this is why I left the department, remember?</post>
+        <post user="JHalcyon">Well, perhaps. Anyway. There's something too wrong about this Providence case</post>
+        <post user="JHalcyon">Information vaporizes before my eyes. Got a bad feeling about this.</post>
+    </IRCDaemon>
+</Computer>

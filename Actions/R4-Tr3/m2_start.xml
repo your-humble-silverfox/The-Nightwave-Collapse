@@ -1,0 +1,10 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <LaunchHackScript Filepath="Scripts/r4-tr3/stage2.txt" DelayHost="delayNode" Delay="0.0" SourceComp="r4_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <SwitchToTheme ThemePathOrName="Themes/willofthethousands.xml" FlickerInDuration="8.0" DelayHost="delayNode" Delay="0.0"/>
+        <HideAllNodes DelayHost="delayNode" Delay="5.0"/>
+        <ShowNode DelayHost="delayNode" Delay="8.0" Target="playerComp"/>
+        <ShowNode DelayHost="delayNode" Delay="8.0" Target="halcyon_web"/>
+        <CrashComputer TargetComp="scriptures" CrashSource="r4_entry" DelayHost="delayNode" Delay="0"/>
+    </Instantly>
+</ConditionalActions>

@@ -1,0 +1,24 @@
+<CustomTheme>
+	<!-- GreenAbstract -->
+
+	<themeLayoutName>green</themeLayoutName>
+	<backgroundImagePath>Themes/Backgrounds/giantfall.png</backgroundImagePath>
+	<defaultHighlightColor>135, 222, 109, 200</defaultHighlightColor>
+	<defaultTopBarColor>6, 40, 16</defaultTopBarColor>
+	<highlightColor>135, 222, 109, 200</highlightColor>
+	<shellColor>135, 222, 109</shellColor>
+	<shellButtonColor>207, 240, 158</shellButtonColor>
+	<moduleColorSolid>60, 222, 10, 100</moduleColorSolid>
+	<moduleColorSolidDefault>60, 222, 10, 100</moduleColorSolidDefault>
+	<moduleColorStrong>10, 80, 20, 50</moduleColorStrong>
+	<moduleColorBacking>6, 6, 6, 200</moduleColorBacking>
+	<topBarColor>6, 40, 16</topBarColor>
+	<terminalTextColor>95, 255, 70</terminalTextColor>
+	<AFX_KeyboardMiddle>60, 255, 10</AFX_KeyboardMiddle>
+	<AFX_KeyboardOuter>60, 222, 10</AFX_KeyboardOuter>
+	<AFX_WordLogo>0, 255, 20</AFX_WordLogo>
+	<AFX_Other>0, 255, 0</AFX_Other>
+	<exeModuleTopBar>12, 33, 33, 80</exeModuleTopBar>
+	<exeModuleTitleText>11, 107, 20, 0</exeModuleTitleText>
+	<topBarIconsColor>255, 255, 255</topBarIconsColor>
+</CustomTheme>

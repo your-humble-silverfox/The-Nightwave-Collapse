@@ -1,0 +1,45 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pi_database" name="Halcyon Private Investigations LLC Database" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>21,80,25,443</ports>
+    <portsForCrack val="4"/>
+    <portRemap>21=265,25=250,443=856</portRemap>
+    <DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="70,40,4" AdminEmailAccount="DBAdmin@jmail.com" AdminEmailHostID="jmail" Name="Halcyon Private Investigations LLC Case Database">
+        <TextRecord>
+            <Title>#4801: "Mystery of a Disappeared Family."</Title>
+            <Data>Client: Mr John Smith
+Investigator: Carl Orgen
+Case Description: Mr Smith contracted the agency to find his missing family who disappeared without a trace several months ago. 
+The assigned investigator must discover all possible leads and find out what happened to them.</Data>
+        </TextRecord>
+        <TextRecord>
+            <Title>#4951: "Election Rival Dossier."</Title>
+                <Data>Client: Mr Lucious Halt
+Investigator: John Halcyon
+Case Description: Mr Halt requested to gather a dossier on his mayor's election competitor Margaret Cumberbatch.
+The assigned investigator must find all possible leads and find out everything that might be useful for the client.</Data>
+            </TextRecord>
+            <TextRecord>
+            <Title>#5941: "Kidnapping in the Park."</Title>
+            <Data>Client: Mrs Alice Johnson
+Investigator: Carl Orgen
+Case Description: Mrs Johnson contracted the agency with finding her missing son who was abducted right from the park where he was playing with his friends. 
+It is up to the assigned investigator to determine who abducted the boy and where he may be.</Data>
+        </TextRecord>
+        <TextRecord>
+            <Title>#5264: "Mysterious Murder at the Theatre."</Title>
+            <Data>Client: Mr Richard Williams.
+Investigator: Carl Orgen
+Case Description: A mysterious murder has occurred in a theatre and Mr. Williams asks the detective to solve the case and find the culprit. 
+The assigned investigator needs to gather evidence, interview witnesses and suspects to find out the circumstances of the crime.</Data>
+        </TextRecord>
+        <TextRecord>
+            <Title>#5367: "Providence Dossier"</Title>
+            <Data>Client: Cr4zy_R3I7
+Investigator: John Halcyon
+Case Description: The agency was contracted to gather information on infamous art-stealer, turned hacker known as Providence, by a renowned software engineer known as Cr4zy_R3I7.
+The assigned investigator must investigate all traces of the individual and compile a report for  the client as soon as possible.</Data>
+        </TextRecord>
+    </DatabaseDaemon>
+    <dlink target="pi_irc"/>
+    <dlink target="pi_drop"/>
+</Computer>

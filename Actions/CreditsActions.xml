@@ -1,0 +1,5 @@
+<ConditionalActions>
+    <Instantly needsMissionComplete="false">
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSong:Music/blackdog.ogg" Delay="0"/>
+    </Instantly>
+</ConditionalActions>

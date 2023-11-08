@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="pi_drop" name="Halcyon Private Investigations Cloud" type="4" icon="DLCServer" allowsDefaultBootModule="true">
+    <ports>21,22,25,443,80</ports>
+    <portsForCrack val="2"/>
+    <firewall level="1" additionalTime="1.15"/>
+    <portRemap>21=265,25=250,443=856</portRemap>
+    <uploadServerDaemon name="Halcyon Private Investigations Cloud" folder="Drop" needsAuth="false" color="70,40,4"/>
+    <file path="Drop/Uploads" name="Case #1438 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #3245 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #1675 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #4929 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #1189 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #2596 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #4558 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #2461 Report.pdf">#BINARY#</file>
+    <file path="Drop/Uploads" name="Case #4825 Report.pdf">#BINARY#</file>
+    <dlink target="pi_home"/>
+</Computer>

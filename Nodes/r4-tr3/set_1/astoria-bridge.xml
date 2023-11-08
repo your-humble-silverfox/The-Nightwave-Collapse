@@ -1,0 +1,10 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="astoria-bridge" name="Astoria Network Bridge" type="3" icon="DLCServer" allowsDefaultBootModule="true">
+    <CustomConnectDisplayDaemon />
+    <ports>21,1433,25,6881</ports>
+    <portsForCrack val="3"/>
+    <proxy time="1"/>
+    <portRemap>21=340,25=91,1443=2887</portRemap>
+    <dlink target="astoria-hub"/>
+    <dlink target="astoria-firewall"/>
+</Computer>

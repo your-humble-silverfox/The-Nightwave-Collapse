@@ -10,11 +10,11 @@
     <AddIRCMessage Author="Channel" TargetComp="centauri" Delay="6.5">!ANNOUNCEMENT!</AddIRCMessage>
     <AddIRCMessage Author="Channel" TargetComp="centauri" Delay="6.8">User "Pretence" id changed to @#PLAYERNAME#.</AddIRCMessage>
     <AddIRCMessage Author="Sunset" TargetComp="centauri" Delay="15.0">Oh, @Pretence, sorry having a change of heart?</AddIRCMessage>
-    <AddIRCMessage Author="Pretence" TargetComp="centauri" Delay="18.5">I sure do. Gonna fire off another joke on it?</AddIRCMessage>
-    <AddIRCMessage Author="Sunset" TargetComp="centauri" Delay="21.2">Of course, fucking with you is more entertaining then any movies</AddIRCMessage>
-    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="centauri" Delay="23.0">@channel I've got work for us.</AddIRCMessage>
+    <AddIRCMessage Author="Pretence" TargetComp="centauri" Delay="19.5">I sure do. Gonna fire off another joke on it?</AddIRCMessage>
+    <AddIRCMessage Author="Sunset" TargetComp="centauri" Delay="24.2">Of course, fucking with you is more entertaining then any movies</AddIRCMessage>
+    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="centauri" Delay="27.0">@channel I've got work for us.</AddIRCMessage>
     <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="centauri" Delay="28.0">@Sunset got a small gig for you and me. And @Pretence, I've got a special gig for you directly, so take a look at it</AddIRCMessage>
-    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="centauri" Delay="36.7">Let's get to it</AddIRCMessage>
+    <AddIRCMessage Author="C0nst3ll4t10n" TargetComp="centauri" Delay="40.7">Let's get to it</AddIRCMessage>
     <AddMissionToHubServer MissionFilepath="Missions/set_1/Sunset_gig.xml" TargetComp="centauri" AssignmentTag="Sunset"/>
     <AddMissionToHubServer MissionFilepath="Missions/set_1/Const_gig.xml" TargetComp="centauri" AssignmentTag="C0nst3ll4t10n"/>
     <AddMissionToHubServer MissionFilepath="Missions/set_1/player_mission/a_second_to_forget.xml" TargetComp="centauri"/>

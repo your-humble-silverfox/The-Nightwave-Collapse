@@ -10,4 +10,27 @@ You can write whatever you want here.</file>
 
    <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
   
+  <memoryDumpFile name="Raiding_The_Louvre.md" path="home">
+    <Memory>
+      <Commands>
+        <Command>ping vestige.r4-tr3</Command>
+      </Commands>
+      <Data>
+        <Block>[@Akamanto] What's this time?
+[@Skyton] Got someone with the progress on your "overwatch"
+[@Akamanto] Let me guess, something I'd like to hear?
+[@Skyton] So, you've needed a way through BitTorrent protocols, right? There's some guys, who make stuff exactly for that.
+[@Akamanto] Alright, I'm listening.
+[@Skyton] The guys call themselves "R4-tre", groups new, but the blokes on it are somewhat known, heard of Cr4zy_R3I7?
+[@Akamanto] That cunt's not dead yet? After everything? Lucky bastard.
+[@Skyton] Heard Providence's been on a hunt for him recently, so beware.
+[@Akamanto] I got it, but I need to find his tools.
+[@Skyton] They do have a website, that's all I have
+        </Block>
+      </Data>
+      <Images>
+      </Images>
+    </Memory>
+  </memoryDumpFile>
+
 </Computer>

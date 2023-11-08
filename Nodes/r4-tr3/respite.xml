@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="r4_entry" name="Emperor's Respite" type="4" icon="chip" ip="86.102.242.95" allowsDefaultBootModule="true">
+    <ports>21,25,1433,80,6881,433</ports>
+    <portsForCrack val="4"/>
+    <portRemap>21=43,25=435,80=438</portRemap>
+    <CustomConnectDisplayDaemon />
+</Computer>

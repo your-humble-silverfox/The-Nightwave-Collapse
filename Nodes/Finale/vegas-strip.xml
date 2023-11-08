@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="vegasstrip" name="The Lucky Vegas Strip" type="4" icon="chip" ip="42.253.236.212" allowsDefaultBootModule="true">
+    <ports>211</ports>
+    <portsForCrack val="0"/>
+    <file path="home" name="worldgone.sh">#BINARY#</file>
+    <dlink target="jin-pub-bridge"/>
+</Computer>

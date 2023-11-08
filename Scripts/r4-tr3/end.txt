@@ -1,0 +1,12 @@
+config playerComp r4_entry 0.5 $#%#$
+clearTerminal $#%#$
+writel First you will follow with virtue and valour $#%#$
+writel 'Til virtual horror disturbs you so violently $#%#$
+writel Total voracity, terminal velocity $#%#$
+writel Turning with ferocity 'til your virtuosity  $#%#$
+writel Shows you're a prodigy, bones in your body fall $#%#$
+writel Awed physiology, cause and pathology $#%#$
+writel Wars and the world are mere lore and mythology $#%#$
+writel More than you thought of in all your philosophy $#%#$
+writel  $#%#$
+writel You've gotten your rewards, now go. You have towers to attend to. $#%#$

@@ -1,0 +1,44 @@
+config playerComp rs_gateway 1.5 $#%#$
+writel_silent ----- The Nightwave Collapse ----- $#%#$
+writel_silent  $#%#$
+writel_silent A hacknet extension by @Silverfox $#%#$
+writel_silent  $#%#$
+writel_silent ------ Testing ------ $#%#$
+writel_silent   $#%#$
+writel_silent @TheWrenchFries $#%#$
+writel_silent @Adamkriaco $#%#$
+writel_silent   $#%#$
+writel_silent ----- Technical Support ----- $#%#$
+writel_silent   $#%#$
+writel_silent @Fayti1703 $#%#$
+writel_silent @Undeath-XIII $#%#$
+writel_silent   $#%#$
+writel_silent ----- Music ----- $#%#$
+writel_silent (In order of appearance) $#%#$
+writel_silent "Tunnel Run" by Moog $#%#$
+writel_silent "Empty World" by _Blacksmith_ (Vladimir Shaikin) $#%#$
+writel_silent "In Risk We Trust" by Lena Raine $#%#$
+writel_silent "Shadow Letters" by _Blacksmith_ (Vladimir Shaikin) $#%#$
+writel_silent "The Bad News" by _Blacksmith_ (Vladimir Shaikin) $#%#$
+writel_silent "The Party Murder" by _Blacksmith_ (Vladimir Shaikin) $#%#$
+writel_silent "Object Ressurection" by The Algorithm $#%#$
+writel_silent "Stars Above The Lake" by _Blacksmith_ (Vladimir Shaikin) $#%#$
+writel_silent "Black Dog (instrumental cover)" by Samurai (refused) & Tamas Boros $#%#$
+writel_silent   $#%#$
+writel_silent ----- Themes ----- $#%#$
+writel_silent   $#%#$
+writel_silent FlynnTheme background by Lingrimm $#%#$
+writel_silent Between The Lines, Giantfall, Death to The Deathless, Will of The Thousands, Watcher From Beyond by SiLeNtWaLkEr $#%#$
+writel_silent Hourglass background, HoraZero, Vice by Angelus-Hellion $#%#$
+writel_silent   $#%#$
+writel_silent ----- Special Thanks ----- $#%#$
+writel_silent   $#%#$
+writel_silent @NeinZieselMouse $#%#$
+writel_silent @Fayti1703 $#%#$
+writel_silent @TheWrenchFries $#%#$
+writel_silent @Adamkriaco $#%#$
+writel_silent @Autumn $#%#$
+writel_silent @Flaffy_Ferka $#%#$
+writel_silent @Melisokay $#%#$
+writel_silent @Bravosix07 $#%#$
+writel_silent @Serbanski $#%#$

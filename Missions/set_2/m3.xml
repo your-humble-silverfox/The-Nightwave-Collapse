@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="set_2" activeCheck="true" shouldIgnoreSenderVerification="false">
+    <goals>
+        <goal type="filedownload" target="pi_phone" file="Providence_dossier_backup.md" path="home"/>
+    </goals>
+
+    <missionEnd>loadConditionalActions:Actions/R4-Tr3/m3_end.xml</missionEnd>
+
+    <nextMission IsSilent="true">NONE</nextMission>
+    <branchMissions>
+
+    </branchMissions>
+
+    <posting title="Raiding The Louvre">We have information of a hacker squad preparing experimental cracking tool, seize it.</posting>
+
+    <email>
+        <sender>Reigning_Strife</sender>
+        <subject>Raiding The Louvre</subject>
+        <body>
+We have information of a hackersquad making experimental cracking tool, seize it.
+----
+Our asset provided us with information about a hackersquad that is allegedly developing a new tool that could prove rather useful in our upcoming operation.
+As you might've guessed we're interested in acquiring said tool, or whatever developments they might have on it. Having other agents occupied, this one is for you, Pretence.
+I've got a little report laying in our drop-server. You look like a fine-upstanding representative of our profession, so time to show your worth, unless you want an express trip on the hearse.
+Go there for your rota, fill up your quota, but watch for marauders.
+
+- Reigning_Strife
+
+P.s.
+Oh and that diary o'yours? Unless you want to earn the right to die early, cut it out. No loose ends.</body>
+        <attachments>
+            <link comp="nw_drop"/>
+            <account comp="nw_drop" user="admin" pass="g9dp2eg2Gb"/>
+        </attachments>
+    </email>
+</mission>

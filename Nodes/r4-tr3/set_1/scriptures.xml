@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="scriptures" name="Ancient Scriptures" type="3" icon="chip" ip="197.61.162.52" allowsDefaultBootModule="true">
+    <CustomConnectDisplayDaemon />
+    <ports>6881,22,443,25,1443</ports>
+    <portsForCrack val="4"/>
+    <proxy time="0.35"/>
+    <firewall solution="paintingpictures" additionalTime="0.15"/>
+</Computer>

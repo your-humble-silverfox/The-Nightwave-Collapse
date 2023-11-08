@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="r4tr3-site" name="Vestige of The R4-Tr3" type="3" icon="chip" ip="vestige.r4-tr3" allowsDefaultBootModule="true">
+    <ports>21,6881,25,443</ports>
+    <portsForCrack val="3"/>
+    <portRemap>21=43,25=435</portRemap>
+    <proxy time="0.75"/>
+    <firewall solution="prophetofopulence" additionalTime="0.45"/>
+    <addWebServer name="Vestige of The R4-Tr3" url="Web/R4-Tr3/index.html"/>
+</Computer>
