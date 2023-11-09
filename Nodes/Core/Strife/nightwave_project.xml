@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="nightwave_project" name="Nightwave_Project" type="4" icon="chip" security="2" ip="124.61.239.235" allowsDefaultBootModule="true">
     <file path="home" name="CreditsData.txt">
-%--- The Nightwave Collapse
+%--- The Nightwave Collapse ---
 
 ^Design and Development
 Silverfox
@@ -33,7 +33,7 @@ _Blacksmith_ (Vladimir Shaikin) - The Bad News
 _Blacksmith_ (Vladimir Shaikin) - The Party Murder
 The Algorithm - Object Resurrection
 _Blacksmith_ (Vladimir Shaikin) - Stars Above The Lake
-Samurai (refused) &amp; Tamas Boros - Black Dog (Instrumental Cover)
+Samurai (refused) &amp; Aldo Kosim - Black Dog (Acoustic Instrumental Cover)
 
 ^Bonus Writing Help
 Undeath-XIII
