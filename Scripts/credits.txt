@@ -23,7 +23,7 @@ writel_silent "The Bad News" by _Blacksmith_ (Vladimir Shaikin) $#%#$
 writel_silent "The Party Murder" by _Blacksmith_ (Vladimir Shaikin) $#%#$
 writel_silent "Object Ressurection" by The Algorithm $#%#$
 writel_silent "Stars Above The Lake" by _Blacksmith_ (Vladimir Shaikin) $#%#$
-writel_silent "Black Dog (instrumental cover)" by Samurai (refused) & Tamas Boros $#%#$
+writel_silent "Black Dog (acoustic instrumental cover)" by Samurai (refused) & Aldo Kosim $#%#$
 writel_silent   $#%#$
 writel_silent ----- Themes ----- $#%#$
 writel_silent   $#%#$
