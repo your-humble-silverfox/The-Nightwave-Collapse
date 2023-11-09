@@ -1,5 +1,5 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="astoria-bridge" name="Astoria Network Bridge" type="3" icon="DLCServer" allowsDefaultBootModule="true">
+<Computer id="astoria-web-bridge" name="Astoria Network Bridge" type="3" icon="DLCServer" allowsDefaultBootModule="true">
     <CustomConnectDisplayDaemon />
     <ports>21,1433,25,6881</ports>
     <portsForCrack val="3"/>

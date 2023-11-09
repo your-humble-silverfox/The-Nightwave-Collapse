@@ -11,7 +11,7 @@
 	<moduleColorSolid>60, 222, 10, 100</moduleColorSolid>
 	<moduleColorSolidDefault>60, 222, 10, 100</moduleColorSolidDefault>
 	<moduleColorStrong>10, 80, 20, 50</moduleColorStrong>
-	<moduleColorBacking>6, 6, 6, 200</moduleColorBacking>
+	<moduleColorBacking>6, 6, 6, 120</moduleColorBacking>
 	<topBarColor>6, 40, 16</topBarColor>
 	<terminalTextColor>95, 255, 70</terminalTextColor>
 	<AFX_KeyboardMiddle>60, 255, 10</AFX_KeyboardMiddle>

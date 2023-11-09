@@ -6,19 +6,19 @@
         <AddMissionToHubServer MissionFilepath="Missions/set_2/m1.xml" TargetComp="ircNode"/>
         <AddMissionToHubServer MissionFilepath="Missions/set_2/dhs/providence_mission.xml" TargetComp="ircNode" AssignmentTag="Providence"/>
         <AddMissionToHubServer MissionFilepath="Missions/set_2/dhs/akamanto_mission.xml" TargetComp="ircNode" AssignmentTag="Akamanto"/>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="5.3">!ANNOUNCEMENT!</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.0">User @Pretence joined @channel</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.3">Error: faild configuring @ mention notifications, use channel wide mentions to mention @Pretence</AddIRCMessage>
     </Instantly>
     <OnConnect target="ircNode">
         <CopyAsset DestFilePath="home/operations/pretence" DestComp="nw_drop" SourceComp="delayNode" SourceFileName="Raiding_The_Louvre.md" SourceFilePath="home"/>
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-shadow_letters.ogg" Delay="5.1"/>
-        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="5.3">!ANNOUNCEMENT!</AddIRCMessage>
-        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.0">User @Pretence joined @channel</AddIRCMessage>
-        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.3">Error: faild configuring @ mention notifications, use channel wide mentions to mention @Pretence</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="13.5">@channel, @Pretence, welcome aboard.</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="17.8">Congratulations on completing the gauntlet.
 For that, I offer you praise. For years the corporations like Jintech have ruled the world from their ivory towers.</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="30.4">Now, it's our time to witness a close of an empire.
 Our plan is to fight them, on their own turf, and for that we need insider knowledge, which you have provided.</AddIRCMessage>
-        <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="31.7">Whilst we study it, I suggest that you join @Akamanto.
+        <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="37.7">Whilst we study it, I suggest that you join @Akamanto.
 There are preparations in order for our operation to succeed. So go forth and plunder!</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="42.4">Your task is up on the board, run along with it.</AddIRCMessage>
     </OnConnect>
