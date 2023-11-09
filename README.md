@@ -50,7 +50,7 @@ Featuring:
 - \_Blacksmith_ (Vladimir Shaikin) - The Party Murder
 - The Algorithm - Object Resurrection
 - \_Blacksmith_ (Vladimir Shaikin) - Stars Above The Lake
-- Samurai (refused) &amp; Tamas Boros - Black Dog (Instrumental Cover)
+- Samurai (refused) &amp; Aldo Kosim - Black Dog (Acoustic Instrumental Cover)
 
 ## Bonus Writing Help
 - Undeath-XIII
