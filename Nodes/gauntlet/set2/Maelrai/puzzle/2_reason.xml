@@ -2,7 +2,7 @@
 <Computer id="maelpuzzle_2" name="Proxy_Node-POINT_OF_REASON" type="3" icon="chip" ip="77.134.3.62" allowsDefaultBootModule="true">
     <ports>21,22,80,1433</ports>
     <portsForCrack val="4"/>
-    <firewall solution="wherelogicisdethroned" additionalTime="1.5"/>
+    <firewall solution="wherelogicisdethroned" additionalTime="0"/>
     <proxy time="1.5"/>
     <!--*KEY*-->
     <Memory>

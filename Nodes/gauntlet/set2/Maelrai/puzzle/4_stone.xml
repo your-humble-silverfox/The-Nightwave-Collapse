@@ -2,7 +2,7 @@
 <Computer id="maelpuzzle_4" name="Proxy_Node-RENDERED_IN_THE_STONE" type="3" icon="chip" ip="77.134.3.208" allowsDefaultBootModule="true">
     <ports>21,22,80,1433,443</ports>
     <portsForCrack val="5"/>
-    <firewall solution="youllfindprovidencesoffensiveis" additionalTime="0.5"/>
+    <firewall solution="youllfindprovidencesoffensiveis" additionalTime="0"/>
     <proxy time="1.5"/>
     <!--*KEY*-->
     <Memory>

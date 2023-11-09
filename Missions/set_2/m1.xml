@@ -6,7 +6,7 @@
 
     <missionEnd>loadConditionalActions:Actions/R4-Tr3/m1_end.xml</missionEnd>
 
-    <nextMission IsSilent="false">Missions/set_2/m2_1.xml</nextMission>
+    <nextMission IsSilent="false">Missions/set_2/m2.xml</nextMission>
     <branchMissions>
 
     </branchMissions>

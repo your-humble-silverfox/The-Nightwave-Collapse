@@ -3,6 +3,6 @@
     <ports>80,443,25,1443,22,6881</ports>
     <portsForCrack val="4"/>
     <portRemap>80=13,443=749,25=35,1443=5749,22=32,6881=5319</portRemap>
-    <firewall solution="2YPBJVVPB" additionalTime="1.15"/>
+    <firewall solution="2YPBJVVPB" additionalTime="0"/>
     <proxy time="1.25"/>
 </Computer>

@@ -2,7 +2,7 @@
 <Computer id="maelpuzzle_3" name="Proxy_Node-FESTERS_ON_THE_BONE" type="3" icon="chip" ip="77.134.3.119" allowsDefaultBootModule="true">
     <ports>21,22,80,1433,443</ports>
     <portsForCrack val="5"/>
-    <firewall solution="wheresenseisdefenselessand" additionalTime="0.5"/>
+    <firewall solution="wheresenseisdefenselessand" additionalTime="0"/>
     <proxy time="1.5"/>
     <!--*KEY*-->
     <Memory>

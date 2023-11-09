@@ -6,7 +6,7 @@
 
     <missionStart>loadConditionalActions:Actions/R4-Tr3/m2_start.xml</missionStart>
 
-    <nextMission IsSilent="true">NONE</nextMission>
+    <nextMission IsSilent="true">Missions/set_2/m3.xml</nextMission>
     <branchMissions>
 
     </branchMissions>

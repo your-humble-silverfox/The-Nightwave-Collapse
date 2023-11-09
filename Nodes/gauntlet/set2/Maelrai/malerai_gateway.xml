@@ -3,7 +3,7 @@
     <ports>21,22,211,1433,443,25,80</ports>
     <portRemap>21=7574,22=7171,211=7544,1433=8766,443=776,25=7578,80=73</portRemap>
     <portsForCrack val="6"/>
-    <firewall solution="elegantmalevolence" additionalTime="1.25"/>
+    <firewall solution="elegantmalevolence" additionalTime="0"/>
     <proxy time="2.5"/>
     <CustomConnectDisplayDaemon />
     <!--*Mission Goal Files*-->
