@@ -4,7 +4,7 @@
         <goal type="getadmin" target="scriptures"/>
     </goals>
 
-    <missionStart>loadConditionalActions:Actions/R4-Tr3/m2_start.xml</missionStart>
+    <missionEnd>loadConditionalActions:Actions/R4-Tr3/m2_end.xml</missionEnd>
 
     <nextMission IsSilent="true">Missions/set_2/m3.xml</nextMission>
     <branchMissions>
