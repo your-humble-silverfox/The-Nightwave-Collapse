@@ -1,5 +1,5 @@
 # The-Nightwave-Collapse
-![The Nightwave Collapse Poster](https://github.com/your-humble-silverfox/The-Nightwave-Collapse/assets/96126811/d47cf0c6-93d6-4444-b969-02c1e78b8339)
+![Nightwave Collapse Poster](https://github.com/your-humble-silverfox/The-Nightwave-Collapse/assets/96126811/02235e00-4fb4-428f-901a-0880ecf7dfe4)
 
 ***That thing, the tower, it only ruins the skyline, right?***
 ---
@@ -15,6 +15,7 @@ Featuring:
 - New Storyline
 - Bespoke riddles
 - Hand-picked soundtrack
+
 - Custom Themes
 - Multiple hours of gameplay
 
@@ -75,7 +76,7 @@ Featuring:
 
 ---
 ## Developed by Silverfox Story Developments
-<img src="https://github.com/your-humble-silverfox/The-Nightwave-Collapse/assets/96126811/6b3536f6-88ac-4295-af87-9e15f27f97d1" width=348 height=348/>
+<img src="https://cdn.discordapp.com/attachments/1127244807899709615/1172190203071447080/red_logo.png?ex=655f6a32&is=654cf532&hm=0a362cd7b9164aec5eab35ab0075af65e33f0776e0c45526971299760caefb1a&)1" width=348 height=348/>
 
 This extension is developed by a member of **Silverfox Story Developments** team.
 If you wish to reach out to follow our future projects, discuss and ask questions about them or finished projects, we would be more than happy to see you on our socials!
