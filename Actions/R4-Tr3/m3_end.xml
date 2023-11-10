@@ -1,6 +1,6 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
-        <LaunchHackScript Filepath="Scripts/r4-tr3/end.txt" DelayHost="delayNode" Delay="0.0" SourceComp="r4_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <LaunchHackScript Filepath="Scripts/r4-tr3/end.txt" DelayHost="delayNode" Delay="0.0" SourceComp="r4tr3-site" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
         <HideAllNodes DelayHost="delayNode" Delay="5.5"/>
         <ShowNode DelayHost="delayNode" Delay="8.0" Target="playerComp"/>
         <CrashComputer TargetComp="pi_phone" CrashSource="r4tr3-site" DelayHost="delayNode" Delay="5.5"/>
@@ -9,7 +9,7 @@
         <AddAsset FileName="TorrentStreamInjector.exe" FileContents="#TORRENT_EXE#" TargetComp="nw_drop" TargetFolderpath="bin"/>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="15.5">!ANNOUNCEMENT!</AddIRCMessage>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="16.5">@channel BitTorrent port cracker has been uploaded to the drop server</AddIRCMessage>
-        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-partymurder.ogg" Delay="21.5"/>
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-party_murder.ogg" Delay="15"/>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="21.5">@Pretence, great work. Now we're ready for the main operation. Akamanto finished her task while you were getting the tool for us.</AddIRCMessage>
         <AddIRCMessage Author="Pretence" TargetComp="ircNode" Delay="26.5">Okay, I've had enough of this. What's this all about, you asshole?</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="32.6">We live in a world where the corporations won! The Fine Prints they force us to sign make us a mere property of theirs, and so it's time. To draw a line on the sand. They believe their towers will save them from our wrath. I see a hole in their ark. You can't run from a height.</AddIRCMessage>
@@ -25,7 +25,7 @@
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSong:Music/TheAlgorithm-ObjectResurrection.ogg" Delay="80"/>
         <LoadMission MissionName="Missions/finale.xml"/>
         <StartScreenBleedEffect AlertTitle="Megatower Attack" CompleteAction="Actions/EndingFail.xml" TotalDurationSeconds="234" DelayHost="delayNode" Delay="80.5">Download worldgone.sh from Vegas Strip
-        Break into the Megatower Mainframe
-        Upload worldgone.sh to Mainframe /sys</StartScreenBleedEffect>
+Break into the Megatower Mainframe
+Upload worldgone.sh to Mainframe /sys</StartScreenBleedEffect>
     </Instantly>
 </ConditionalActions>

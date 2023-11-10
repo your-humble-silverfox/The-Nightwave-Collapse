@@ -4,7 +4,7 @@
         <DeleteFile TargetComp="g1_entry" FilePath="sys" FileName="x-server.sys" DelayHost="delayNode" Delay="0.0"/>
         <DeleteFile TargetComp="g1_02" FilePath="sys" FileName="x-server.sys" DelayHost="delayNode" Delay="0.0"/>
         <DeleteFile TargetComp="g1_end" FilePath="sys" FileName="x-server.sys" DelayHost="delayNode" Delay="0.0"/>
-        <CrashComputer TargetComp="playerComp" CrashSource="g1_entry" DelayHost="delayNode" Delay="18.5"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="g1_entry" DelayHost="delayNode" Delay="12.5"/>
     </Instantly>
 
     <OnConnect target="playerComp">

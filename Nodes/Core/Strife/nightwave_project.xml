@@ -50,7 +50,7 @@ NeinZieselMouse
 Fayti1703
 TheWrenchFries
 Adamkriaco
-Autumn
+AutumnRivers
 Flaffy_Ferka
 Melisokay
 Bravosix07
@@ -60,6 +60,8 @@ Serbanski
 Silverfox
 NeinZieselMouse
 TheWrenchFries
+
+^ Thanks for playing!
 </file>
     <CreditsDaemon Title="Nightwave Project Finalization" ButtonText="Initiate Escape Protocol" ConditionalActionSetToRunOnButtonPressPath="Actions/CreditsActions.xml"/>
 </Computer>

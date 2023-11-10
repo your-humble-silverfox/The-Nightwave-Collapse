@@ -1,6 +1,6 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
-        <LaunchHackScript Filepath="Scripts/r4-tr3/entry.txt" DelayHost="delayNode" Delay="8.0" SourceComp="r4_entry" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+        <LaunchHackScript Filepath="Scripts/r4-tr3/entry.txt" DelayHost="delayNode" Delay="0" SourceComp="r4tr3-site" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
         <SwitchToTheme ThemePathOrName="Themes/giantfall.xml" FlickerInDuration="8.0" DelayHost="delayNode" Delay="0.0"/>
         <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="delayNode" Delay="0.0"/>
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-thebadnews.ogg" Delay="8.0"/>

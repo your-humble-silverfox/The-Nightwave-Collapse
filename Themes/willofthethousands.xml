@@ -1,8 +1,8 @@
 <CustomTheme>
 	<!-- GreenAbstract -->
 
-	<themeLayoutName>greencompact</themeLayoutName>
-	<backgroundImagePath>Themes/Backgrounds/willofthousands.png</backgroundImagePath>
+	<themeLayoutName>riptide</themeLayoutName>
+	<backgroundImagePath>Themes/Backgrounds/willofthethousands.png</backgroundImagePath>
 	<defaultHighlightColor>135, 222, 109, 200</defaultHighlightColor>
 	<defaultTopBarColor>6, 40, 16</defaultTopBarColor>
 	<highlightColor>135, 222, 109, 200</highlightColor>

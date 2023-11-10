@@ -1,4 +1,4 @@
-config playerComp r4_entry 0.5 $#%#$
+config playerComp r4tr3-site 0.5 $#%#$
 stopMusic $#%#$
 connect $#%#$
 clearTerminal $#%#$
@@ -8,6 +8,4 @@ writel_silent Thus, you should prove that you are ready to handle things of this
 writel_silent   $#%#$
 writel_silent You shall find the truth and the key to your secrets, child $#%#$
 writel_silent   $#%#$
-writel_silent But beware: There's no turning back now $#%#$
-
-delay  $#%#$
+writel_silent But beware: There's no turning back now

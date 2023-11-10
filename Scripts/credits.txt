@@ -37,8 +37,10 @@ writel_silent @NeinZieselMouse $#%#$
 writel_silent @Fayti1703 $#%#$
 writel_silent @TheWrenchFries $#%#$
 writel_silent @Adamkriaco $#%#$
-writel_silent @Autumn $#%#$
+writel_silent @AutumnRivers $#%#$
 writel_silent @Flaffy_Ferka $#%#$
 writel_silent @Melisokay $#%#$
 writel_silent @Bravosix07 $#%#$
 writel_silent @Serbanski $#%#$
+writel_silent   $#%#$
+writel_silent Thanks for playing!

@@ -1,4 +1,6 @@
 config playerComp g1_entry 0.5 $#%#$
+clearTerminal $#%#$
+stopMusic $#%#$
 delete /sys x-server.sys $#%#$
 delete /bin * $#%#$
 connect $#%#$
@@ -21,3 +23,4 @@ writel  $#%#$
 write > Your true trial begins now $#%#$
 writel  $#%#$
 write > Welcome to NIGHTWOKEN GAUNTLET
+startMusic $#%#$

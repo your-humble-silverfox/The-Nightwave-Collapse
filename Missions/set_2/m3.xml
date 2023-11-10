@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="set_2" activeCheck="true" shouldIgnoreSenderVerification="false">
     <goals>
-        <goal type="filedownload" target="pi_phone" file="Providence_dossier_backup.md" path="home"/>
+        <goal type="filedownload" target="pi_backup" file="Providence_dossier_backup.md" path="home"/>
     </goals>
 
     <missionEnd>loadConditionalActions:Actions/R4-Tr3/m3_end.xml</missionEnd>
