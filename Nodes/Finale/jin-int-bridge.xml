@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="jin-int-bridge" name="Jintech Internal Bridge" icon="DLCServer" type="3" allowsDefaultBootModule="true">
-    <ports>80,443,25,1443,22</ports>
+    <ports>80,443,25,1433,22</ports>
     <portsForCrack val="4"/>
-    <portRemap>80=13,443=749,25=35,1443=5749,22=32,6881=5319</portRemap>
+    <portRemap>80=13,443=749,25=35,1433=5749,22=32,6881=5319</portRemap>
     <firewall solution="YLIGF54" additionalTime="0"/>
     <dlink target="jin-mainframe"/>
 </Computer>
