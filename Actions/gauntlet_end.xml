@@ -9,7 +9,7 @@
         <AddMissionToHubServer MissionFilepath="Missions/set_2/dhs/akamanto_mission.xml" TargetComp="ircNode" AssignmentTag="Akamanto"/>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="5.3">!ANNOUNCEMENT!</AddIRCMessage>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.0">User @Pretence joined @channel</AddIRCMessage>
-        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.3">Error: faild configuring @ mention notifications, use channel wide mentions to mention @Pretence</AddIRCMessage>
+        <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="6.3">Error: failed configuring @ mention notifications, use channel wide mentions to mention @Pretence</AddIRCMessage>
     </Instantly>
     <OnConnect target="ircNode">
         <CopyAsset DestFilePath="home/operations/pretence" DestComp="nw_drop" SourceComp="delayNode" SourceFileName="Raiding_The_Louvre.md" SourceFilePath="home"/>

@@ -1,7 +1,11 @@
 <ConditionalActions>
     <Instantly needsMissionComplete="false">
+        <HideAllNodes DelayHost="delayNode" Delay="0.0"/>
         <LaunchHackScript Filepath="Scripts/failure_end.txt" DelayHost="delayNode" Delay="0.0" SourceComp="rs_gateway" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
-        <CrashComputer TargetComp="playerComp" CrashSource="rs_gateway" DelayHost="delayNode" Delay="7.6"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="rs_gateway" DelayHost="delayNode" Delay="0.0"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="rs_gateway" DelayHost="delayNode" Delay="0.0"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="rs_gateway" DelayHost="delayNode" Delay="0.0"/>
+        <CrashComputer TargetComp="playerComp" CrashSource="rs_gateway" DelayHost="delayNode" Delay="0.0"/>
     </Instantly>
     <OnConnect target="playerComp">
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSong:Music/blackdog.ogg" Delay="0"/>

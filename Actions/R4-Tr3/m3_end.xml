@@ -24,7 +24,7 @@
         <SwitchToTheme ThemePathOrName="Themes/deathtothedeathless.xml" FlickerInDuration="0" DelayHost="delayNode" Delay="80"/>
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSong:Music/TheAlgorithm-ObjectResurrection.ogg" Delay="80"/>
         <LoadMission MissionName="Missions/finale.xml"/>
-        <StartScreenBleedEffect AlertTitle="Megatower Attack" CompleteAction="Actions/EndingFail.xml" TotalDurationSeconds="234" DelayHost="delayNode" Delay="80.5">Download worldgone.sh from Vegas Strip
+        <StartScreenBleedEffect AlertTitle="Megatower Attack" CompleteAction="Actions/EndingFail.xml" TotalDurationSeconds="284" DelayHost="delayNode" Delay="80.5">Download worldgone.sh from Vegas Strip
 Break into the Megatower Mainframe
 Upload worldgone.sh to Mainframe /sys</StartScreenBleedEffect>
     </Instantly>

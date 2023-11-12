@@ -34,4 +34,13 @@
         <post user="Ange">Yep, a whole subdomain, the ".cloud" one</post>
     </IRCDaemon>
     <dlink target="flynn_cloud"/>
+    <Memory>
+        <Commands>
+        </Commands>
+        <Data>
+        </Data>
+        <Images>
+            <Image>Docs/Images/EliasMeme.png</Image>
+        </Images>
+    </Memory>
 </Computer>

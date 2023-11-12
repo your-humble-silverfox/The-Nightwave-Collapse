@@ -8,6 +8,7 @@
         <ShowNode DelayHost="delayNode" Delay="0.1" Target="g2_entry"/>
         <ShowNode DelayHost="delayNode" Delay="0.1" Target="kernel.hardline"/>
         <CrashComputer TargetComp="playerComp" CrashSource="g1_end" DelayHost="delayNode" Delay="0.2"/>
+        <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/lenaraine_inriskwetrust.ogg" Delay="0.2"/>
     </Instantly>
     <OnConnect target="playerComp">
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/lenaraine_inriskwetrust.ogg" Delay="0.0"/>

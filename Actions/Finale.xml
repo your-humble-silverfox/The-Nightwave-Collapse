@@ -7,7 +7,7 @@
         <AddIRCMessage Author="Pretence" TargetComp="ircNode" Delay="13.5">The hell are you talking about?</AddIRCMessage>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="14.0">@Pretence has been muted</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="15.0">My sweet summer child, haven't you understood it all already?</AddIRCMessage>
-        <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="19.0">You have just pulled of the scariest hit ever on a corporation to this day.</AddIRCMessage>
+        <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="19.0">You have just pulled off the scariest hit ever on a corporation to this day.</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="25.0">While listening to a fanatic, @Akamanto have organized and @Pretence pulled off a DDoS attack on Jintech's precious megatower</AddIRCMessage>
         <AddIRCMessage Author="Channel" TargetComp="ircNode" Delay="34.0">@Akamanto has been muted</AddIRCMessage>
         <AddIRCMessage Author="Reigning_Strife" TargetComp="ircNode" Delay="34.5">And took extra step not to just set their servers on fire, but disable any fire prevention and evacuation systems!</AddIRCMessage>

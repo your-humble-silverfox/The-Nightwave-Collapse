@@ -10,4 +10,5 @@
             <Block>192</Block>
         </Data>
     </Memory>
+    <positionNear target="maelrai_gw" position="3" total="4" extraDistance="0.5" force="false"/>
 </Computer>
