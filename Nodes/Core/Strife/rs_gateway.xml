@@ -27,7 +27,7 @@ Wipe Strife persona
         <Memory>
             <Commands>
                 <Command>
-> profiledump_old.exe -gs matsukoza
+&gt; profiledump_old.exe -gs matsukoza
 Accessing profile...
 Name: Kozakura, Matsuura
 Age: 30

@@ -9,7 +9,7 @@
 
     <OnConnect target="playerComp">
         <RunFunction DelayHost="delayNode" FunctionName="playCustomSongImmediatley:Music/_blacksmith_-empty_world.ogg" Delay="0.0"/>
-        <AddAsset FileName="SSHCrack" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
+        <AddAsset FileName="SSHCrack.exe" FileContents="#SSH_CRACK#" TargetComp="playerComp" TargetFolderpath="bin"/>
         <LoadMission MissionName="Missions/gauntlet/mission_1.xml"/>
     </OnConnect>
 </ConditionalActions>

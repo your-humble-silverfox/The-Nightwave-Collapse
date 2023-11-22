@@ -31,11 +31,11 @@ Hm-m-m, looks similar to the one @Ricer was making
 ------------------------------------------
 >@Ricer
 
-Although the guy got pwned by some shitheads from digi-sec community.
+Although that guy got pwned by some shitheads from a digi-sec community.
 Only fair we got his tools out, should've been earlier honestly.
 ------------------------------------------
 #Snake
-Great. Hopefully now we'll get more efficient in our operations.
+Great. Hopefully now we'll be more efficient in our operations.
 ------------------------------------------
 #Chip
 Oh my god. A happy Snake! Rejoice kernel.hardline, cuz now the ragnarok is gonna come

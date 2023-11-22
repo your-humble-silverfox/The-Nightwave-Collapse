@@ -5,7 +5,7 @@
     <portsForCrack val="4"/>
     <proxy time="1.35"/>
     <firewall solution="RPO6Z" additionalTime="1.05"/>
-    <file path="log" name="@81034 Connection From 106.142.206.189">We're not in Kansas anymore, Toto.</file>
+    <file path="log" name="@81034 Connection From 106.142.206.189">Connection From 106.142.206.189</file>
     <file path="log" name="@88922 106.142.206.189 Given Administrator Access">Connection from 106.142.206.189 given administrator privileges.</file>
     <file path="log" name="@88928 106.142.206.189 Acessed File [Providence_Dossier.pdf]">File [Providence_Dossier.pdf] was read by 106.142.206.189 -- System Administrator</file>
     <file path="log" name="@89002 106.142.206.189 Deleted File [Providence_Dossier.pdf]">File [Providence_Dossier.pdf] was deleted by 106.142.206.189 -- System Administrator</file>
@@ -28,7 +28,7 @@
 <eosDevice name="John Halcyon's ePhone 7 Mega" id="pi_phone" icon="ePhone2" empty="false">
     <!-- It's important to keep everything in your files organized - so let's leave some space between tags -->
     <note>Storage
-153.74.134.146   </note>
+153.74.134.146</note>
     <mail username="JHalcyon@jmail.com" pass="hoaxstopper"/>
 </eosDevice>
 </Computer>
