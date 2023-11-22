@@ -2,7 +2,7 @@
 <Computer id="astoria-hub" name="Astoria Contractor Hub" type="3" icon="DLCServer" allowsDefaultBootModule="true">
     <ports>21,6881,211,80,25</ports>
     <portsForCrack val="3"/>
-    <portRemap>21=340,25=91,1443=2887,80=9010</portRemap>
+    <portRemap>21=340,25=91,1433=2887,80=9010</portRemap>
     <CustomConnectDisplayDaemon />
     <Memory>
         <Commands>

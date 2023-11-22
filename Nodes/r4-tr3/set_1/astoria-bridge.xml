@@ -4,7 +4,7 @@
     <ports>21,1433,25,6881</ports>
     <portsForCrack val="3"/>
     <proxy time="1"/>
-    <portRemap>21=340,25=91,1443=2887</portRemap>
+    <portRemap>21=340,25=91,1433=2887</portRemap>
     <dlink target="astoria-hub"/>
     <dlink target="astoria-firewall"/>
 </Computer>

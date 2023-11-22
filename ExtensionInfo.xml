@@ -1,6 +1,6 @@
 <HacknetExtension>
   <!-- Max name length is 128 characters -->
-	<Name>Nightwave Collapse</Name>
+	<Name>The Nightwave Collapse</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->

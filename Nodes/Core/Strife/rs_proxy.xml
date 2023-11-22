@@ -1,10 +1,10 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="rs_proxy" name="Reigning_Strife_Proxy_Node-BT7274" type="4" icon="laptop" allowsDefaultBootModule="true">
-    <ports>22,21,25,433,1443</ports>
+    <ports>22,21,25,433,1433</ports>
     <portsForCrack val="5"/>
     <firewall level="7"/>
     <proxy time="1.8"/>
-    <portRemap>21=98,80=560,22=99,25=96,1443=8667</portRemap>
+    <portRemap>21=98,80=560,22=99,25=96,1433=8667</portRemap>
     <!--Hacknet Files from the mission-->
     <file path="home/Hacknet" name="Hacknet.sln">#BINARY#</file>
     <file path="home/Hacknet" name="HN_NETCORE.dll">#BINARY#</file>
