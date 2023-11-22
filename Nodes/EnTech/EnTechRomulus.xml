@@ -12,9 +12,9 @@
   <positionNear target="EnTechMainframe" position="4" total="6" />
 
   <file path="STORE/Contractors/MinistMole" name="EntEncrypt_Project_MinistMoleReport7.txt">
-After finally receiving the entire project source code from my predecessor and analyzing it, I have come to the conclusion of project being impossible to finish in it's current state.
-Previous developer made a plethora of basic mistakes that now plagued the project, making it an unoptimized mess. The "questionable" variable naming of previous developer has rendered any salvaging of the source code impossible as well.
-The only viable solution is to move the deadline on the project forward and/or increase the team and funding provided so that project can be re-started from scratch. 
+After finally receiving the entire project source code from my predecessor and analyzing it, I have come to the conclusion of the project being impossible to finish in its current state.
+Previous developer made a plethora of basic mistakes that now plague the project, making it an unoptimized mess. The "questionable" variable naming of the previous developer has rendered any salvaging of the source code impossible as well.
+The only viable solution is to move the deadline on the project forward and/or increase the team and funding provided so that the project can be restarted from scratch. 
 
 -MinistMole
   </file>

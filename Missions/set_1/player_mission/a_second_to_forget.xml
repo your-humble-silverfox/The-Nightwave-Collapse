@@ -31,6 +31,8 @@ Cometh the hour
         <attachments>
             <link comp="nw_drop"/>
             <link comp="EnTechWeb"/>
+            <note title="Objectives">- Find any .sln and .dll files relating to EnTech's "big project"
+- Upload it to the Nightwave Drop server</note>
         </attachments>
     </email>
 </mission>

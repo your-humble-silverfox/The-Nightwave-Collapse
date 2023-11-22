@@ -17,7 +17,7 @@
 "database": "database_name"
 }</file>
     <file path="sys/seq" name="log.log">#BINARY#</file>
-    <file path="sys/seq" name="seq_enc.dll">#BINARY</file>
+    <file path="sys/seq" name="seq_enc.dll">#BINARY#</file>
     <file path="sys/seq" name="SEQUENCER_Runtime.dll">#BINARY#</file>
     
     <!--* Mission Crucial Memory Dump *-->

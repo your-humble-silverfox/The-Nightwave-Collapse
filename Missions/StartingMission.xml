@@ -1,7 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <mission id="startingMission" activeCheck="false" shouldIgnoreSenderVerification="false">
     <goals>
-        <goal type="delay" time="0"/>
     </goals>
 
     <nextMission IsSilent="true">NONE</nextMission>

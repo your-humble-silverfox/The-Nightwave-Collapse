@@ -7,11 +7,11 @@
         <agent name="JHalcyon" color="163,118,61"/>
         <agent name="COrgen" color="63,73,82"/>
         <post user="JHalcyon">Hey, Carl, how's the case with the kid going?</post>
-        <post user="COrgen">Well, I feel like police are doing their work, but I still keep a look at it.</post>
+        <post user="COrgen">Well, I feel like the police are doing their work, but I'm still keeping an eye on it.</post>
         <post user="JHalcyon">Got a feeling it's over?</post>
-        <post user="COrgen">It's been three months, John, best that can happen is we never find him ever.</post>
+        <post user="COrgen">It's been three months, John. Best that can happen is we never find him, ever.</post>
         <post user="COrgen">Stuff like this is why I left the department, remember?</post>
-        <post user="JHalcyon">Well, perhaps. Anyway. There's something too wrong about this Providence case</post>
+        <post user="JHalcyon">Well, perhaps. Anyway. There's something too... wrong about this Providence case</post>
         <post user="JHalcyon">Information vaporizes before my eyes. Got a bad feeling about this.</post>
     </IRCDaemon>
 </Computer>

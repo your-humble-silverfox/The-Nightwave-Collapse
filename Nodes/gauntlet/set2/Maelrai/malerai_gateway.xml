@@ -35,7 +35,7 @@ t0d0m3k1: A matter of time.
     </file>
     <file path="home/operations/vittorum" name="vittorum_consciousness_mantra.pdf">#BINARY#</file>
     <file path="home/operations/vittorum" name="vc_pricelist.pdf">#BINARY#</file>
-    <file path="home/operations/vittorum" name="vc_client_database.nugg">#BINARY</file>
+    <file path="home/operations/vittorum" name="vc_client_database.nugg">#BINARY#</file>
     <!--executables-->
     <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
     <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
